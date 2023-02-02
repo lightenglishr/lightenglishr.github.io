@@ -166,7 +166,7 @@
                 </a>
             </li>
             <li>
-                <a href="/blog" title="博文" target="_blank">
+                <a href="/post" title="博文" target="_blank">
                     <span>博文</span>
                 </a>
             </li>
@@ -493,12 +493,12 @@ onload="renderMathInElement(document.body);"></script>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerText = 'copy';
+        copybutton.innerText = 'Copy';
 
         function copyingDone() {
-            copybutton.innerText = 'copied!';
+            copybutton.innerText = 'Copied!';
             setTimeout(() => {
-                copybutton.innerText = 'copy';
+                copybutton.innerText = 'Copy';
             }, 2000);
         }
 
