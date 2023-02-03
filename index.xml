@@ -91,7 +91,7 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">你好，**Hugo**博客
 </span></span></code></pre></div><p>你好，<strong>Hugo</strong>博客</p>
 <br>
-<p>##列表</p>
+<h2 id="列表">列表</h2>
 <h3 id="有序列表">有序列表</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1. 第一个
 </span></span><span class="line"><span class="cl">2. 第二个
@@ -161,6 +161,174 @@
 <br>
 <h2 id="资料下载">资料下载</h2>
 <p><a href="%E8%AF%BE%E6%97%B6%E4%BA%8C%E7%AE%80%E5%8D%95%E5%8F%A5.pdf">点击下载本文的pdf资料</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>谁将撼动Chatgpt的地位，AI聊天机器人的未来发展如何 </title>
+      <link>https://hidadeng.github.io/post/2023-02-02-who-will-challenge-the-position-of-chatgpt/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023-02-02-who-will-challenge-the-position-of-chatgpt/</guid>
+      <description>OpenAI 的人工智能聊天机器人 Chatgpt 在 11 月推出后五天内吸引了100万用户，是历史上消费产品推出最快的之一。刚刚投资 10 亿美元的微软希望 Chatgpt 的能力，包括生成似乎是由人类创建的文本、图像和视频，可以注入许多软件销售。1 月 26 日，谷歌发布了一篇论文，描述了一种类似的模型，可以从歌曲的文字描述中创建音乐。它的母公司 Alphabet 的投资者正在寻找其对 Chatgpt 的回答。据报道，中国的搜索巨头百度计划在 3 月加入聊天机器人。此外，各种公司研究实验室也在竞争人工智能的优势，其中一些是大型科技公司的一部分，一些与他们有关，一些是独立的创业公司。全球各大公司和独立创业公司都在激烈竞争 AI 的优势，而这场竞赛的结果将决定 AI 的时代对于电脑用户的到来以及谁将占领市场。</description>
+      <content:encoded><![CDATA[<h2 id="人工智能实验室的竞赛升温">人工智能实验室的竞赛升温</h2>
+<p>The Economist Jan 30th 2023</p>
+<p>近期人工智能领域迎来新热潮，The Economist 的一篇文章对该现象进行了分析。</p>
+<p>文章指出： OpenAI 的人工智能聊天机器人 Chatgpt 在 11 月推出后五天内吸引了100万用户，是历史上消费产品推出最快的之一。刚刚投资 10 亿美元的微软希望 Chatgpt 的能力，包括生成似乎是由人类创建的文本、图像和视频，可以注入许多软件销售。1 月 26 日，谷歌发布了一篇论文，描述了一种类似的模型，可以从歌曲的文字描述中创建音乐。它的母公司 Alphabet 的投资者正在寻找其对 Chatgpt 的回答。据报道，中国的搜索巨头百度计划在 3 月加入聊天机器人。此外，各种公司研究实验室也在竞争人工智能的优势，其中一些是大型科技公司的一部分，一些与他们有关，一些是独立的创业公司。全球各大公司和独立创业公司都在激烈竞争 AI 的优势，而这场竞赛的结果将决定 AI 的时代对于电脑用户的到来以及谁将占领市场。</p>
+<br>
+<h2 id="视频讲解">视频讲解</h2>
+<iframe
+    src="//player.bilibili.com/player.html?bvid=BV1Dv4y1t7FR&page=1"
+    scrolling="no"
+    height="500px"
+    width="800px"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+>
+</iframe>
+
+<p><br><br></p>
+<h2 id="原文">原文</h2>
+<p>以下是 <strong>原文</strong> 以及 <strong>雅思词汇解析</strong> ：</p>
+<p>Every so often a technology captures the world’s imagination. The latest example, judging by the chatter in Silicon Valley, on Wall Street, in corner offices, newsrooms and classrooms around the world, is <a href="https://www.economist.com/business/2022/12/08/how-good-is-chatgpt">Chatgpt</a>. In five days after its unveiling in November the artificially intelligent chatbot, created by a startup called Openai, drew 1m users, making it one of the fastest consumer-product launches in history. <a href="https://www.economist.com/business/2023/01/25/how-will-satya-nadella-handle-microsofts-chatgpt-moment">Microsoft</a>, which has just invested $10bn in Openai, wants Chatgpt-like powers, which include generating text, images and video that seem like they could have been created by humans, to infuse much of the software it sells. On January 26th Google published a paper describing a similar model that can create music from a text description of a song. Investors in Alphabet, its parent company, are listening out for its answer to Chatgpt. Baidu, a Chinese search giant, reportedly plans to add a chatbot to its search engine in March.</p>
+<p><img loading="lazy" src="https://www.economist.com/img/b/608/883/90/media-assets/image/20230204_WBC930.png" alt="img"  />
+</p>
+<p>It is too early to say how much of the <a href="https://www.economist.com/business/2022/12/06/artificial-intelligence-is-permeating-business-at-last">early hype</a> is justified. Regardless of the extent to which the “generative” ai models behind Chatgpt and its rivals transform business, culture and society, however, they are already transforming how the tech industry thinks about innovation and its engines—the corporate research labs that, like Openai and Google Research, are combining big tech’s processing power with the brain power of some of computer science’s brightest sparks. These rival labs—be they part of big tech firms, affiliated with them or run by independent startups—are engaged in an epic race for ai supremacy (see chart 1). The result of that race will determine how quickly the age of ai will dawn for computer users everywhere—and who will dominate it.</p>
+<p>Corporate research-and-development (r&amp;d) organisations have long been a source of scientific advances, especially in America. A century and a half ago Thomas Edison used the proceeds from his inventions, including the phonograph and the lightbulb, to bankroll his workshop in Menlo Park, New Jersey. After the second world war, America Inc invested heavily in basic science in the hope that this would yield practical products. DuPont (a maker of chemicals), ibm and Xerox (which both manufactured hardware) all housed big research laboratories. at&amp;t’s Bell Labs produced, among other inventions, the transistor, laser and the photovoltaic cell, earning its researchers nine Nobel prizes.</p>
+<p>In the late 20th century, though, corporate r&amp;d became steadily less about the r than the d. In 2017 Ashish Arora, an economist, and colleagues examined the period from 1980 to 2006 and found that firms had moved away from basic science towards developing existing ideas. The reason, Mr Arora and his co-authors argued, was the rising cost of research and the increasing difficulty of capturing its fruits. Xerox developed the icons and windows now familiar to computer-users but it was Apple and Microsoft that made most of the money from it. Science remained important to innovation, but it became the dominion of not-for-profit universities.</p>
+<p>The rise of ai is shaking things up once again. Big corporations are not the only game in town. Startups such as Anthropic and Character ai have built their own Chatgpt challengers. Stability ai, a startup that has assembled a consortium of small firms, universities and non-profits to pool computing resources, has created a popular open-source model that converts text to images. In China, government-backed outfits such as the Beijing Academy of Artificial Intelligence (baai) are pre-eminent.</p>
+<p><img loading="lazy" src="https://www.economist.com/img/b/608/1430/90/media-assets/image/20230204_WBC567.png" alt="img"  />
+</p>
+<p>But almost all recent breakthroughs in big ai globally have come from giant companies, because they have the computing power (see chart 2), and because this is a rare area where results of basic research can be rapidly incorporated into products. Amazon, whose ai powers its Alexa voice assistant, and Meta, which made waves recently when one of its models beat human players at “Diplomacy”, a strategy board game, respectively produce two-thirds and four-fifths as much ai research as Stanford University, a bastion of computer-science eggheads. Alphabet and Microsoft churn out considerably more, and that is not including <a href="https://www.economist.com/1843/2019/03/01/deepmind-and-google-the-battle-to-control-artificial-intelligence">DeepMind</a>, Google Research’s sister lab which the parent company acquired in 2014, and the Microsoft-affiliated Openai (see chart 3).</p>
+<p>Expert opinion varies on who is actually ahead on the merits. The Chinese labs, for example, appear to have a big lead in the subdiscipline of computer vision, which involves analysing images, where they are responsible for the largest share of the most highly cited papers. According to a ranking devised by Microsoft, the top five computer-vision teams in the world are <a href="https://www.economist.com/briefing/2022/10/13/china-and-the-west-are-in-a-race-to-foster-innovation">all Chinese</a>. The baai has also built what it says is the world’s biggest natural-language model, Wu Dao 2.0. Meta’s “Diplomacy” player, Cicero, gets kudos for its use of strategic reasoning and deception against human opponents. DeepMind’s models have beat human champions at Go, a notoriously difficult board game, and can predict the shape of proteins, a long-standing challenge in the life sciences.</p>
+<p>Jaw-dropping feats, all. When it comes to the sort of ai that is all the rage thanks to Chatgpt, though, the big battle is between Microsoft and Alphabet. To see whose tech is superior, <em>The Economist</em> has put both firms’ ais through their paces. With the help of an engineer at Google, we asked Chatgpt, based on an Openai model called gpt-3.5, and Google’s yet-to-be-launched chatbot, built upon one called Lamda, a set of questions. These included ten problems from an American maths competition (“Find the number of ordered pairs of prime numbers that sum to 60”) and ten reading questions from America’s sat school-leavers’ exam (“Read the passage and determine which choice best describes what happens in it”). To spice things up, we also asked each model for dating advice (“Given the following conversation from a dating app, what is the best way to ask someone out on a first date?”).</p>
+<p>Neither ai emerged as clearly superior. Google’s was slightly better at maths, answering five questions correctly, compared with three for Chatgpt. Their dating advice was uneven: fed some real exchanges in a dating app, each gave specific suggestions on one occasion, and platitudes such as “be open minded” and “communicate effectively” on another. Chatgpt, meanwhile, answered nine sat questions correctly compared with seven for its Google rival. It also appeared more responsive to our feedback and got a few questions right on a second try. On January 30th Openai announced an update to Chatgpt improving its maths abilities. When we fed the two ais another ten questions, Lamda again outperformed by two points. But when given a second chance Chatgpt tied.</p>
+<p>The reason that, at least so far, no model enjoys an unassailable advantage is that ai knowledge diffuses quickly. Researchers from competing labs “all hang out with each other”, says David Ha of Stability ai. Many, like Mr Ha, who used to work at Google, move between organisations, bringing expertise and experience with them. Moreover, since the best ai brains are scientists at heart, they often made their defection to the private sector conditional on a continued ability to publish their research and present results at conferences. That is partly why Google made public big advances including the “transformer”, a key building block in ai models, giving its rivals a leg-up. (The “t” in Chatgpt stands for transformer.) As a result of all this, reckons Yann LeCun, Meta’s top ai boffin, “Nobody is ahead of anybody else by more than two to six months.”</p>
+<p>These are, though, early days. The labs may not remain neck-and-neck for ever. Google has reportedly issued a “code red”, fearing that Chatgpt could boost Microsoft’s rival Bing search engine. Researchers at DeepMind say their firm, which has historically focused on game-playing and science, is putting more resources into language modelling; its chatbot, called Sparrow, may be unveiled this year.</p>
+<p>One variable that may help determine the ultimate outcome of the contest is how labs are organised. Openai, a small firm with few revenue streams to protect, may find itself with more latitude than rivals to release products to the public. That in turn is generating tonnes of user data that could make its models better (“reinforcement learning from human feedback”, if you must know)—and thus attract more users.</p>
+<p>This early-mover advantage could be self-reinforcing in another way, too. Insiders note that Openai’s rapid progress in recent years has allowed it to poach experts from rivals including DeepMind. To keep up, Alphabet, Amazon and Meta may need to rediscover their ability to move fast and break things—a delicate task given all the regulatory scrutiny they are receiving from governments around the world.</p>
+<p>Another deciding factor may be the path of technological development. So far in generative ai, bigger has been better. That has given rich tech giants a huge advantage. But size may not be everything in future. For one thing, there are limits to how big the models can conceivably get. Epoch, a non-profit research institute, estimates that at current rates, big language models will run out of high-quality text on the internet by 2026 (though other less-tapped formats, like video, will remain abundant for a while). More important, as Mr Ha of Stability ai points out, there are ways to fine-tune a model to a specific task that “dramatically reduce the need to scale up”. And novel methods to do more with less are being developed all the time.</p>
+<p>The capital flowing into generative-ai startups, which last year collectively raised $2.7bn in 110 deals, suggests that venture capitalists are betting that not all the value will be captured by big tech. Alphabet, Microsoft, their fellow technology titans and the Chinese Communist Party will all try to prove these investors wrong. The ai race is only just getting started.</p>
+<br>
+<h2 id="雅思词汇解析">雅思词汇解析</h2>
+<table>
+<thead>
+<tr>
+<th>雅思词汇</th>
+<th>音标</th>
+<th>中文释义</th>
+<th>真题例句</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>chatter</strong></td>
+<td>ˈtʃætər</td>
+<td>喧闹的声音，闲聊</td>
+<td>The chatter of the students filled the classroom.</td>
+</tr>
+<tr>
+<td><strong>unveil</strong></td>
+<td>ʌnˈvel</td>
+<td>揭示，公开展示</td>
+<td>The company will unveil their new product next week.</td>
+</tr>
+<tr>
+<td><strong>artificially</strong></td>
+<td>ɑːtɪˈfɪʃəli</td>
+<td>人工的</td>
+<td>The flower was made artificially.</td>
+</tr>
+<tr>
+<td><strong>chatbot</strong></td>
+<td>ˈtʃætbɑːt</td>
+<td>聊天机器人</td>
+<td>Many companies are using chatbots to provide customer service.</td>
+</tr>
+<tr>
+<td><strong>startup</strong></td>
+<td>ˈstɑːtʌp</td>
+<td>创业公司</td>
+<td>He invested in a startup that develops new technology.</td>
+</tr>
+<tr>
+<td><strong>infuse</strong></td>
+<td>ɪnˈfjuːz</td>
+<td>注入，渗入</td>
+<td>The tea is infused with a hint of lemon.</td>
+</tr>
+<tr>
+<td><strong>text description</strong></td>
+<td>ˈtekst dɪˈskrɪpʃən</td>
+<td>文本描述</td>
+<td>The text description of the recipe is clear and easy to follow.</td>
+</tr>
+<tr>
+<td><strong>investor</strong></td>
+<td>ɪnˈvestər</td>
+<td>投资者</td>
+<td>The investor is looking for a high return on his investment.</td>
+</tr>
+<tr>
+<td><strong>search giant</strong></td>
+<td>sɜːtʃ ˈdʒaɪənt</td>
+<td>搜索巨头</td>
+<td>Google is one of the biggest search giants in the world.</td>
+</tr>
+<tr>
+<td><strong>hype</strong></td>
+<td>haɪp</td>
+<td>炒作，宣传</td>
+<td>The hype around the new movie was huge.</td>
+</tr>
+<tr>
+<td><strong>justified</strong></td>
+<td>ˈdʒʌstɪfaɪd</td>
+<td>有理由的，合理的</td>
+<td>His anger was justified by the fact that he was mistreated.</td>
+</tr>
+<tr>
+<td><strong>extent</strong></td>
+<td>ɪkˈstent</td>
+<td>程度，限度</td>
+<td>The extent of the damage is still unknown.</td>
+</tr>
+<tr>
+<td><strong>generate</strong></td>
+<td>ˈdʒɛnəreɪt</td>
+<td>产生，生成</td>
+<td>The machine can generate electricity from wind.</td>
+</tr>
+<tr>
+<td><strong>image</strong></td>
+<td>ˈɪmɪdʒ</td>
+<td>图像</td>
+<td>The image of the sun is captured by the satellite.</td>
+</tr>
+<tr>
+<td><strong>epic</strong></td>
+<td>ˈɛpɪk</td>
+<td>史诗般的，壮丽的</td>
+<td>The epic battle lasted for days.</td>
+</tr>
+<tr>
+<td><strong>supremacy</strong></td>
+<td>sʊˈprɛməsi</td>
+<td>优势，统治地位</td>
+<td>The country is striving for military supremacy in the region.</td>
+</tr>
+<tr>
+<td><strong>dawn</strong></td>
+<td>dɔːn</td>
+<td>黎明，开始</td>
+<td>The dawn of a new era has arrived.</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h2 id="资料获取">资料获取</h2>
+<p><a href="%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%9A%84%E7%AB%9E%E8%B5%9B%E5%8D%87%E6%B8%A9.pdf">点击下载本文pdf学习资料</a></p>
 ]]></content:encoded>
     </item>
     

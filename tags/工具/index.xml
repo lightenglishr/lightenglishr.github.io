@@ -47,7 +47,7 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">你好，**Hugo**博客
 </span></span></code></pre></div><p>你好，<strong>Hugo</strong>博客</p>
 <br>
-<p>##列表</p>
+<h2 id="列表">列表</h2>
 <h3 id="有序列表">有序列表</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1. 第一个
 </span></span><span class="line"><span class="cl">2. 第二个
