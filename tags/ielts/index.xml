@@ -6,7 +6,168 @@
     <description>Recent content in IELTS on LightEnglishr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ielts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ielts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>让元宇宙体验感UP的触觉手套真的能够实现吗</title>
+      <link>https://hidadeng.github.io/post/2023-02-06-the-metaverse/metaverse/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023-02-06-the-metaverse/metaverse/</guid>
+      <description>在计算机游戏和虚拟现实领域，触觉学家们正试图在视觉和听觉的基础上增加触觉，以增强虚拟世界的浸入感。</description>
+      <content:encoded><![CDATA[<h1 id="元宇宙和未来小工具的敏感世界">元宇宙和未来小工具的敏感世界</h1>
+<p>The Economist Feb 1st 2023</p>
+<p>​       <strong>元宇宙</strong>（英语：metaverse）是一个聚焦于社交连结的3D[虚拟世界]之网络。此虚拟环境将可以通过[虚拟现实眼镜]、[扩增实境]眼镜、手机、[个人电脑]和[电子游戏机]进入人造的虚拟世界。</p>
+<p>​       文章讲述了触觉的发展。在计算机游戏和虚拟现实领域，触觉学家们正试图在视觉和听觉的基础上增加触觉，以增强虚拟世界的浸入感。未来，用户将通过穿着触觉衣服来体验这一切，包括触觉手套和触觉背心等，以便在虚拟世界中感知触觉。不同公司使用不同的技术，如电气刺激、振动马达和压缩空气等。触觉技术的初始市场主要是企业，如医学学校和工程师协作等。未来，这种技术也有可能用于普通消费者。</p>
+<br>
+<h1 id="视频讲解">视频讲解</h1>
+<iframe
+    src="//player.bilibili.com/player.html?bvid=BV12x4y1571A&page=1"
+    scrolling="no"
+    height="500px"
+    width="800px"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+>
+</iframe>
+
+<br>
+<br>
+<h1 id="原文">原文</h1>
+<p>以下是<strong>原文</strong>以及<strong>雅思词汇解析</strong>：</p>
+<p>The brave new world Aldous Huxley describes in his novel of that title features the “feelies”. In 1932, its year of publication, movies were turning into talkies. Feelies must have seemed a logical, if creepy, extension of that. The book alludes to a film at a local theatre with a love scene on a bearskin rug, in which the sensation of every hair of the bear is reproduced.</p>
+<p>![截屏2023-02-06 22.04.25](/Users/tiffany/Library/Application Support/typora-user-images/截屏2023-02-06 22.04.25.png)</p>
+<p>The feelies have still not arrived. But people are working on them. In computer games and virtual reality (vr), two heirs to cinema’s role in light entertainment, practitioners of the discipline of haptics are attempting to add a sense of touch to those of vision and hearing, to <a href="https://www.economist.com/science-and-technology/2023/02/01/researchers-find-a-way-to-make-vr-headsets-more-realistic">increase the illusion of immersion in a virtual world</a>. In future, they hope, if you reach out to pluck an apple from a tree in such a paradise, your hand will no longer go through it. You will, rather, be able to feel and grasp the fruit, if not actually eat it. Conversely, if it is a paradise lost you are in, and a baddy hiding behind the apple tree shoots you, you will feel the bullet’s impact.</p>
+<p>To experience all this a user will wear haptic clothing. The ambitious talk of whole-body haptic suits, but in the case of the apple, the tree and the gunman haptic gloves and a haptic vest would suffice. Moving a gloved hand creates corresponding movement of a user’s virtual hand, with sensations appropriate to objects “touched” being fed back via devices called haptic actuators, incorporated into the glove. Haptic vests similarly stimulate parts of the upper body.</p>
+<p><strong>Hand in glove</strong></p>
+<p>Actuators themselves come in a variety of forms. Those most widely used at the moment are erms (eccentric rotating masses) and lras (linear resonant actuators). An erm is a tiny motor that drives a shaft fitted with an off-centre weight which causes the whole thing to vibrate when the shaft spins. An lra uses an electromagnetic coil to shake a surface. Nowadays, these devices are employed for jobs like alerting smartphone users to incoming messages and reacting when a touchscreen is tapped. But adapting such well-understood technologies for use in vr and gaming should be fairly easy.</p>
+<p>erms and lrass are not, however, the only possible approaches to immersive haptics. For instance, owo Game, a Spanish firm, is about to put on sale a haptic vest, worn next to the skin, that relies on electrical stimulation rather than vibrating actuators. It delivers tuneable levels of current to different parts of the torso. Besides creating tingling sensations, these can also cause muscles to contract. Effects replicable using this approach apparently include being shot, stabbed and blown up.</p>
+<p>In Redmond, Washington, meanwhile, a firm called HaptX has reached for pneumatics, a technology many might think had seen its heyday. Bob Crockett, one of the company’s founders, explains that the firm needs compressed air to produce a big enough displacement of the skin to effect a realistic sensation of touch. Other haptic devices, he says, cannot do that.</p>
+<p>HaptX’s gloves, branded g1, have their air pumped in and out through a network of tubes which inflate or deflate 135 tiny balloons incorporated into each glove. The most sensitive of these balloons—those in the finger tips—are less than 1mm in diameter. The gloves’ fingers also include pneumatic “exotendons”, which brake the fingers’ movement, thereby simulating the feeling of touching a solid object. The compressor and electronics powering the system are held in a backpack, so a user can move around freely.</p>
+<p>None of this will be cheap. A pair of g1 gloves will set you back at least $4,500. The initial market, though, is corporate, rather than retail. Early customers are expected to include organisations that already use vr for training and want to improve the experience: medical schools teaching operating techniques to surgeons, for example, or workshops that repair jet engines. Another use might be to permit collaboration between engineers living in different parts of the world. People working on a new car, say, could meet in a virtual laboratory, tinker with virtual components, and pass around virtual copies of their designs.</p>
+<p>There is, though, a further reason why HaptX has chosen pneumatics: it does not intend to stop at making gloves. It has plans for a whole-body haptic suit and thinks pneumatic actuation will be easier to scale up than something based on electric motors. It is cagey about details, but users would don an exoskeleton that could create sensations all over the body—including forces that pull a user’s hands downward, so he or she would feel the weight of virtual objects.</p>
+<p><strong>Unvested interest</strong></p>
+<p>vr and gaming are the high end of haptics. But ways of improving haptic feedback in the non-virtual world are important, too. Smartphones, computers and the touchscreens now proliferating in vehicles, fast-food venues and so on could all benefit from a bit of haptic feedback.</p>
+<p>Aito, a firm based in Amsterdam, hopes to provide just that. It produces haptic systems for laptops and other digital devices. These employ actuators based on piezoelectric materials, which shrink or expand in response to a voltage, producing a slight movement. And the process works in reverse, as well. When squeezed, a piezoelectric crystal generates a current. This means piezo materials can be employed both as actuators and as sensors.</p>
+<p>Aito’s actu-sensors have three layers. Their covers are plastic, glass or even wood. Below lies a capacitance grid, which determines, from the change created in the grid’s electric field, the position of a finger touching the device. The third layer is a matrix of piezo activators. All three combine into something barely 1.8mm thick that can be incorporated into touchscreens and touch pads.</p>
+<p>When an actu-sensor detects a finger it responds appropriately, according to the position and pressure of the digit in question. It might create clicks. Or rumbles. Or form the screen’s upper layer into a stable but scratchy surface that would cause a finger or a plastic stylus to feel like a fountain pen gliding over paper, or like a brush painting on canvas.</p>
+<p>With the introduction of portable devices that have foldable screens, the lower half might thereby be used as a haptic keyboard. It could be programmed to provide a tactile response like that of a mechanical keyboard, but with additional features, says Nedko Ivanov, Aito’s boss. For instance, pressing down harder would capitalise a letter, doing away with the need for a shift key.</p>
+<p>This would also allow devices to be slimmer and lighter. And the same machine could be sold in different places without having to modify its hardware, for a screen-based haptic keyboard could be programmed to use whatever character set was appropriate to the local language.</p>
+<p>Some of these new features will work their way into cars, too—especially as conventional dashboard switches are replaced more and more by icons on a screen. Without a satisfying mechanical click, it can be hard to tell, without taking your eyes off the road, whether such icons have been activated or deactivated.</p>
+<p>And there is also one other potentially big use for haptics. Pornographers were early pioneers of the internet (and, indeed, of film and photography before that). So it is hardly surprising a number of them are now working on virtual-sex encounters—known in the trade as “teledildonics”. Some companies producing sex toys, for example, have already begun adding Bluetooth-enabled items to their range, allowing couples to link up remotely, as it were. Perhaps Huxley wasn’t so far off the money after all.</p>
+<br>
+<h1 id="雅思词汇">雅思词汇</h1>
+<table>
+<thead>
+<tr>
+<th>雅思词汇</th>
+<th>音标</th>
+<th>中文释义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>feelies</strong></td>
+<td>[ˈfiːliːz]</td>
+<td>感觉电影</td>
+</tr>
+<tr>
+<td><strong>alludes</strong></td>
+<td>[əˈluːdz]</td>
+<td>暗示</td>
+</tr>
+<tr>
+<td><strong>theatre</strong></td>
+<td>[ˈθɪətə(r)]</td>
+<td>剧院</td>
+</tr>
+<tr>
+<td><strong>sensation</strong></td>
+<td>[senˈseɪʃən]</td>
+<td>感觉</td>
+</tr>
+<tr>
+<td><strong>reproduced</strong></td>
+<td>[ˌriːprəˈduːst]</td>
+<td>复制</td>
+</tr>
+<tr>
+<td><strong>virtual reality</strong></td>
+<td>[ˈvɜːtʃuəl rɪˈæləti]</td>
+<td>虚拟现实</td>
+</tr>
+<tr>
+<td><strong>heirs</strong></td>
+<td>[ˈherz]</td>
+<td>继承人</td>
+</tr>
+<tr>
+<td><strong>light entertainment</strong></td>
+<td>[ˈlaɪt ˈentəˈteɪnmənt]</td>
+<td>轻松娱乐</td>
+</tr>
+<tr>
+<td><strong>haptics</strong></td>
+<td>[ˈhæptɪks]</td>
+<td>触觉学</td>
+</tr>
+<tr>
+<td><strong>immersion</strong></td>
+<td>[ɪˈmɜːʃən]</td>
+<td>沉浸</td>
+</tr>
+<tr>
+<td><strong>grasp</strong></td>
+<td>[ɡræsp]</td>
+<td>抓住</td>
+</tr>
+<tr>
+<td><strong>baddy</strong></td>
+<td>[ˈbædi]</td>
+<td>坏人</td>
+</tr>
+<tr>
+<td><strong>bullet&rsquo;s impact</strong></td>
+<td>[ˈbʊlɪts ˈɪmpækt]</td>
+<td>子弹的冲击</td>
+</tr>
+<tr>
+<td><strong>haptic clothing</strong></td>
+<td>[ˈhæptɪk ˈkloʊðɪŋ]</td>
+<td>触觉服装</td>
+</tr>
+<tr>
+<td><strong>whole-body haptic suits</strong></td>
+<td>[ˈhoʊlˈbɑːdi ˈhæptɪk ˈsuːts]</td>
+<td>整体触觉套装</td>
+</tr>
+<tr>
+<td><strong>haptic gloves</strong></td>
+<td>[ˈhæptɪk ɡlɑːvz]</td>
+<td>触觉手套</td>
+</tr>
+<tr>
+<td><strong>haptic vest</strong></td>
+<td>[ˈhæptɪk vest]</td>
+<td>触觉背心</td>
+</tr>
+<tr>
+<td><strong>haptic actuators</strong></td>
+<td>[ˈhæptɪk ˈæktjʊˈeɪtərz]</td>
+<td>触觉执行器</td>
+</tr>
+<tr>
+<td><strong>linear resonant actuators</strong></td>
+<td>[ˈlɪnɪər ˈrezənənt ˈæktjʊˈeɪtərz]</td>
+<td>线性共振驱动器</td>
+</tr>
+</tbody>
+</table>
+<h1 id="资料获取">资料获取</h1>
+<p>[点击下载文本pdf学习资料]（元宇宙和未来小工具的敏感世界.pdf）</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>谁将撼动Chatgpt的地位，AI聊天机器人的未来发展如何 </title>
       <link>https://hidadeng.github.io/post/2023-02-02-who-will-challenge-the-position-of-chatgpt/</link>
