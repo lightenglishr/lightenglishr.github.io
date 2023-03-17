@@ -5,10 +5,45 @@
   
   <url>
     <loc>https://hidadeng.github.io/</loc>
-    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
+  
+  
+  
+  <url>
+    <loc>https://hidadeng.github.io/post/</loc>
+    <lastmod>2023-03-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://hidadeng.github.io/post/2023-03-16-study-of-linking-words-in-political-speeches-of-bill-clinton-using-python/</loc>
+    <lastmod>2023-03-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>https://hidadeng.github.io/post/2023-03-17-computational-analysis-of-us-political-speeches-/</loc>
+    <lastmod>2023-03-16T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
   
   
   
@@ -18,21 +53,6 @@
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-  
-  
-  
-  <url>
-    <loc>https://hidadeng.github.io/post/</loc>
-    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
-  
-  
-  
-  
   
   
   
@@ -74,8 +94,6 @@
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-  
-  
   
   
   

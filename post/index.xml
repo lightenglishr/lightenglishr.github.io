@@ -6,7 +6,72 @@
     <description>Recent content in Posts on LightEnglishr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 15 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Python研究比尔克林顿政治演讲中的连接词</title>
+      <link>https://hidadeng.github.io/post/2023-03-16-study-of-linking-words-in-political-speeches-of-bill-clinton-using-python/</link>
+      <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023-03-16-study-of-linking-words-in-political-speeches-of-bill-clinton-using-python/</guid>
+      <description>以威廉·杰斐逊·克林顿 (William Jefferson Clinton) 的著作《比尔·克林顿总统的演讲》(Speeches of President Bill Clinton)为载体，其中收录比尔·克林顿的 37 篇演讲。使用Python编程，对其中的连接词进行特定分组以及词频统计分析，揭示了政治家的言论如何在特定环境中被用来发展权力、影响力和对民众的控制，以及它们如何被用来揭示政治家的目标和野心。</description>
+      <content:encoded><![CDATA[<h2 id="study-of-linking-words-in-political-speeches-of-bill-clinton-using-python-使用python研究比尔克林顿政治演讲中的连接词">Study of linking words in political speeches of Bill Clinton using Python 使用Python研究比尔克林顿政治演讲中的连接词</h2>
+<p>该论文发表在PNAS：</p>
+<blockquote>
+<p>M. Karp, N. Kunanets, A. Burtnyk, O. Melnychuk, I. Bekhta and I. Shainer, &ldquo;<strong>Study of linking words in political speeches of Bill Clinton using Python</strong>,&rdquo; <em>2022 IEEE 17th International Conference on Computer Sciences and Information Technologies (CSIT)</em>, Lviv, Ukraine, 2022, pp. 77-82, doi: 10.1109/CSIT56902.2022.10000437.</p>
+</blockquote>
+<p><br><br></p>
+<p>作者指出：计算语言学被定义为一个广泛的领域，其中计算机程序、组织的计算机技术和数据处理被用来模拟语言在特定情况和问题领域的功能，以及计算机语言模型在语言学和相关学科中的使用.计算语言学主要关注收集、积累、处理和检索信息过程的语言支持。Python 是一种简单而强大的高级面向对象编程语言，具有出色的语言数据处理能力。 Python 创始人 Guido van Rossum 的主要目标是为广泛的人群创建一种简单易懂的编程语言。如今，没有文本分析和处理的项目是不完整的。Python 拥有广泛的库和框架来完成各种任务。任务可以是微不足道的：文本音调分析、实体识别，以及更有趣的机器人、支持聊天中的对话。此外，应用的多样性也令人赏心悦目，这表明 Python 可以巧妙地解决广泛的任务。</p>
+<p>作者以威廉·杰斐逊·克林顿 (William Jefferson Clinton) 的著作《比尔·克林顿总统的演讲》(Speeches of President Bill Clinton)为载体，其中收录比尔·克林顿的 37 篇演讲。使用Python编程，对其中的连接词进行特定分组以及词频统计分析，揭示了政治家的言论如何在特定环境中被用来发展权力、影响力和对民众的控制，以及它们如何被用来揭示政治家的目标和野心。</p>
+<h2 id="下载资料">下载资料</h2>
+<ul>
+<li><a href="%E4%BD%BF%E7%94%A8Python%E7%A0%94%E7%A9%B6%E6%AF%94%E5%B0%94%E5%85%8B%E6%9E%97%E9%A1%BF%E6%94%BF%E6%B2%BB%E6%BC%94%E8%AE%B2%E4%B8%AD%E7%9A%84%E8%BF%9E%E6%8E%A5%E8%AF%8D.pdf">点击下载论文</a></li>
+<li><a href="%E4%BD%BF%E7%94%A8Python%E7%A0%94%E7%A9%B6%E6%AF%94%E5%B0%94%E5%85%8B%E6%9E%97%E9%A1%BF%E6%94%BF%E6%B2%BB%E6%BC%94%E8%AE%B2%E4%B8%AD%E7%9A%84%E8%BF%9E%E6%8E%A5%E8%AF%8D.png">点击下载论文pdf框架</a></li>
+</ul>
+<p><br><br></p>
+<h2 id="一研究背景">一、研究背景</h2>
+<p>作者指出：通过分析政治言论获得的信息有助于追踪政治家在特定背景下使用的言论对建立权力、影响力和对人民的控制的影响，以及了解政治家的目标和意图。在与人的交流中，主要目标是传递信息并被正确理解。借助特殊的连接词，这将更容易实现，这不仅可以美化语言，还可以帮助对话者理解您的信息主题。而语言研究方法本身直到最近才被用于与政治话语的互动。</p>
+<p><br><br></p>
+<h2 id="二研究过程">二、研究过程</h2>
+<p>研究方法：</p>
+<p>使用Python编程语言</p>
+<p><br><br></p>
+<h2 id="三数据来源">三、数据来源</h2>
+<p>威廉·杰斐逊·克林顿 (William Jefferson Clinton) 的著作《比尔·克林顿总统的演讲》(Speeches of President Bill Clinton)为载体，其中收录比尔·克林顿的 37 篇演讲。</p>
+<p><br><br></p>
+<h2 id="四研究发现">四、研究发现：</h2>
+<ol>
+<li>
+<p>识别了比尔·克林顿在演讲中使用的连接词。分析美国前总统比尔克林顿的演讲，可以确定这位政治家使用了大量属于加法、效果和顺序组的词。比尔·克林顿 (Bill Clinton) 的每一次演讲都需要一些东西并激励我们。他们总是从远方开始。比尔克林顿使用策略来认同人民。这有助于向人们表明他是“他们的”并且可以信任他。比尔·克林顿试图走近人民，代表人民说话。这使得他的演讲更加情绪化，也更容易被普通美国人理解。</p>
+</li>
+<li>
+<p>使用连接词和短语可以提高演讲质量。大多数形式的书面和口头演讲和演示都是以类似的方式组织的，包括问题陈述、自己的观点和结论。连接词和短语充当所说内容各部分之间的桥梁。他们将每个部分组合在一起，以及每个部分中的句子和段落，甚至一个句子中的两个想法。连接词不仅仅是通过改善声音来美化你的语言的口头技巧。这些词具有特殊含义，可以使读者或听众以某种方式思考您的想法并做出反应。</p>
+</li>
+<li>
+<p>政治话语无疑是语言使用的主要领域，长期以来一直吸引着研究者的兴趣。这是因为政治话语是一种复杂的人类活动，值得批判性研究，特别是因为它在社会组织和管理中的核心地位。</p>
+</li>
+<li>
+<p>政治演讲不仅仅是展示领导人魅力的机会。它在大多数人无法访问数字平台的国家尤其有帮助，因为说话是直接与他们互动的最佳方式。这项研究的结果将有助于确定通过使用各种语言技术进行有效政治交流的基本原则。</p>
+</li>
+</ol>
+<p><br><br></p>
+<h2 id="五论文框架">五、论文框架</h2>
+<p><img loading="lazy" src="%e4%bd%bf%e7%94%a8Python%e7%a0%94%e7%a9%b6%e6%af%94%e5%b0%94%e5%85%8b%e6%9e%97%e9%a1%bf%e6%94%bf%e6%b2%bb%e6%bc%94%e8%ae%b2%e4%b8%ad%e7%9a%84%e8%bf%9e%e6%8e%a5%e8%af%8d.png" alt="img"  />
+</p>
+<h2 id="六代码">六、代码</h2>
+<p>请点击下载论文</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架</title>
+      <link>https://hidadeng.github.io/post/2023-03-17-computational-analysis-of-us-political-speeches-/</link>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023-03-17-computational-analysis-of-us-political-speeches-/</guid>
+      <description>利用国会记录和其他政治演讲来源，使用定量文本分析方法系统地调查过去 140 年国会和总统关于移民的演讲中使用的语言。</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码)</title>
       <link>https://hidadeng.github.io/post/2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors/</link>
