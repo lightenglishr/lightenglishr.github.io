@@ -6,7 +6,327 @@
     <description>Recent content in Posts on LightEnglishr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 17 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sentiment Analysis: An overview from Linguistics</title>
+      <link>https://hidadeng.github.io/post/2023-03-22-sentiment-analysis-an-overview-from-linguistics/</link>
+      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023-03-22-sentiment-analysis-an-overview-from-linguistics/</guid>
+      <description>&lt;p&gt;分享一篇情感分析：语言学概述&lt;/p&gt;
+&lt;p&gt;该论文发表在PNAS：&lt;/p&gt;
+&lt;h2 id=&#34;下载资料&#34;&gt;下载资料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%EF%BC%9A%E8%AF%AD%E8%A8%80%E5%AD%A6%E6%A6%82%E8%BF%B0.pdf&#34;&gt;下载脑图pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;论文框架&#34;&gt;论文框架&lt;/h2&gt;
+&lt;p&gt;! &lt;a href=&#34;%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%EF%BC%9A%E8%AF%AD%E8%A8%80%E5%AD%A6%E6%A6%82%E8%BF%B0.png&#34;&gt;img&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sentiment-analysis-an-overview-from-linguistics&#34;&gt;Sentiment Analysis: An overview from Linguistics&lt;/h2&gt;
+&lt;p&gt;情感分析是语言学和计算机科学交叉领域中一个不断发展的领域，它试图自动确定文本中包含的情感或正面/负面意见。情绪可以表征为通过语言表达的正面或负面评价。情感分析的常见应用包括自动确定在线发布的评论（电影、书籍或消费品）对所评论的项目是正面的还是负面的。情感分析现在是公司、营销人员和政治分析师进行的社交媒体分析的常用工具。情感分析研究从文本中的正面和负面词、这些词的上下文以及文本的语言结构中提取信息。这个简短的调查特别考察了语言知识对自动确定情绪问题的贡献。&lt;/p&gt;
+&lt;h3 id=&#34;1-sentiment-subjectivity-opinion-appraisal-affect-emotion&#34;&gt;1. &lt;strong&gt;Sentiment&lt;/strong&gt;, &lt;strong&gt;subjectivity, opinion, appraisal, affect, emotion&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;“我思，故我在”可能先于笛卡尔的陈述。感觉似乎比思想更原始，但它们构成了我们生活的重要组成部分。情绪、意见及其在语言中的表达可能是最基本的人类特征之一。 Martin 和 White (2005) 建议将情绪状态或情感的表达制度化为另外两个类别。第一个是对他人的判断表达，第二个是欣赏的分类，或审美意见。情感、判断和欣赏一起捕捉我们如何传达我们的感受和意见，这是情感分析的研究对象。&lt;/p&gt;
+&lt;p&gt;这种情绪和评价的表达在语言学和其他社会科学的不同总称下进行研究。在语言学中，影响研究（Batson et al 1992）、主观性和观点（Banfield 1982、Langacker 1990、Traugott 1995、Traugott 2010）、证据性（Aikhenvald 2004、Chafe &amp;amp; Nichols 1986）、态度立场（Biber &amp;amp; Finegan 1988） , Biber &amp;amp; Finegan 1989), modality (Bybee &amp;amp; Fleischman 1995, Palmer 1986, Portner 2009) and appraisal (Martin &amp;amp; White 2005), 在每个领域仅举几例，所有这些都旨在解释我们如何使用语言来传达情感，评价和主观性。定义这些术语中的每一个很容易占用整篇论文。出于当前的目的，我将主观性称为信念、情感、评价或态度的语言表达（Wiebe 1994）。这与呈现事件或描述世界状况的客观陈述形成对比。&lt;/p&gt;
+&lt;p&gt;语言学、传播学和心理学研究研究了我们如何表达、理解以及受主观性表达的影响（Caffi &amp;amp; Janney 1994，Krippendorf 2004）；我们如何将情绪和观点与某些语言方面联系起来，例如特定的单词或句法模式（Biber &amp;amp; Finegan 1989，Hunston 2011，Stein 1995）；以及我们如何根据语言表达表达的观点类型对语言表达进行分类（Martin &amp;amp; White 2005）。在本次调查中，我将专注于所谓的情绪，即主观性作为积极或消极意见的表达。一个密切相关的领域是情绪和情绪术语的研究，特别是它们的分类（愤怒、惊讶、恐惧等）。一些项目试图同时捕捉两者，但我将在此处描述的研究主要涉及情绪。然而，许多技术和方法适用于以语言表达的情绪的研究和分类。&lt;/p&gt;
+&lt;p&gt;在过去的几年里，伴随着对主观性和评价研究的纯理论兴趣，人们越来越关注我们如何在网上表达意见。这开辟了计算机科学和计算语言学中的情感分析领域，可以出于各种目的捕获主观性、意见和评价。这一研究领域也被称为“意见挖掘”，这可能是由于研究人员对数据挖掘和大数据的兴趣所致。&lt;/p&gt;
+&lt;p&gt;在本文中，我简要总结了自动提取情感和意见的不同方法，并介绍了最新技术。特别是，我将讨论与语言学最相关的情感分析方面，以及交互有益的方面。 Pang 和 Lee（2008 年）、Liu（2012 年）以及 Sonntag 和 Stede（2014 年）提出了从计算角度进行的一般调查，而 Feldman（2013 年）是面向外行观众的简短概述。&lt;/p&gt;
+&lt;h3 id=&#34;2-the-analysis-part-computational-methods&#34;&gt;2. &lt;strong&gt;The ‘analysis’ part: Computational methods&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;方法和术语各不相同，但主要目标是确定一段文本或其中的一部分是否是主观的，如果是主观的，它是表达积极的还是消极的观点。观点的方向（即正面或负面）有时被称为语义方向。 Esuli 和 Sebastiani（2006 年）将问题定义为三个不同的方面：(i) 确定文本的主观性（即文本是否是事实性的，或者它是否表达了对其主题的意见）；
+(ii) 确定文本的极性，或确定给定的主观文本是否表达了对其主题的正面或负面意见； (iii) 确定文本极性的强度（即确定文本对其主题表达的正面意见是弱正面、轻微正面还是强烈正面）。&lt;/p&gt;
+&lt;p&gt;Kim 和 Hovy (2004) 进一步合并了来源，并将意见定义为四元组，[主题、持有人、声明、陈述]，其中持有人相信关于该主题的声明，并将情绪与该信念相关联。情绪可能是积极的，也可能是消极的。&lt;/p&gt;
+&lt;p&gt;大部分工作都集中在分析电影、书籍和消费品的评论上（Dave et al 2003，Hu &amp;amp; Liu 2004，Kennedy &amp;amp; Inkpen 2006，Turney 2002）。还有一个新兴的政治话语分析领域（Efron 2004，Mullen &amp;amp; Malouf 2006），包括报纸上的评论文章。这样的工作可以在搜索引擎中找到应用：在搜索电影评论时，可以要求将评论进一步分类为正面或负面。公司也对其声誉及其产品感兴趣。跟踪在线讨论并评估它们是正面的还是负面的符合他们的利益。&lt;/p&gt;
+&lt;p&gt;在政治生活和政策制定中的应用是显而易见的：一种新的民意调查形式可能会出现，在这种形式中，民意调查者跟踪在线讨论，而不是提问。一些项目还通过在线讨论 (Ahmad et al 2006) 或留言板上的投资者情绪 (Das &amp;amp; Chen 2001) 来跟踪金融市场的演变。在另一个项目中，我们使用这些方法通过历史评论来追踪文学声誉 (Taboada et al 2006)。这些方法也可以应用于电子邮件消息 (Spertus 1997) 和客户服务查询 (Gamon 2004)。最近的应用程序涉及博客和微博的形式，例如 Twitter 或 Facebook 消息（Kiritchenko 等人 2014 年、Mohammad 等人 2013 年、Ortigosa 等人 2014 年、Thelwall 等人出现、Vilares 等人 2015 年），包括 Hedonometer 项目，尝试在 Twitter 上衡量幸福感（Dodds 等人，2015 年）。&lt;/p&gt;
+&lt;p&gt;因此，情感分析的基本任务是获得足够的信息，以便在需要处理新项目（推文、句子、标题、摘录或全文）时，提取其特征以确定它是否包含正面或基于现有信息的负面情绪。&lt;/p&gt;
+&lt;p&gt;该任务的关键方面是信息的来源。该问题存在两种主要方法：机器学习或基于词典。在机器学习方法中，构建了一个分类器，可以确定新文本的极性。分类器的构建要归功于其他项目（句子、文档等）的标记实例。这被称为监督学习，因为分类器是根据类别的好例子或坏例子来给定方向的。分类器了解到某些特征可以区分正面文本和负面文本。这些特征是学习中的参数，并且往往是一元组，即训练数据集中存在的单个单词或标记。&lt;/p&gt;
+&lt;p&gt;分类可以是二元的（正面和负面），或者可以包括中性类别。机器学习方法的优点是，给定一个标记数据集，即先前已确定文档是正面或负面的数据集，训练是微不足道的，并且可以使用现有工具（例如 WEKA）非常快速地构建分类器, Witten 和 Frank (2005)。例如，使用一组 2,000 条电影评论构建了许多分类器，根据他们对所讨论电影的评价是正面还是负面进行标记（Pang 等人 2002 年）。在大多数情况下，它们的性能在 80% 左右或以上。也就是说，生成的分类器能够在 80% 的时间内正确确定未见数据的极性（Andreevskaia &amp;amp; Bergler 2008、Bloom 等人 2007、Dinu &amp;amp; Iuga 2012、Prabowo &amp;amp; Thelwall 2009、Socher 等人 2011、Yessenalina 等人2010 年等）&lt;/p&gt;
+&lt;p&gt;虽然机器学习方法因其准确性而备受青睐，但它们通常存在许多缺点。首先，因为它们是在非常具体的数据上训练的，所以它们通常不能移植到新类型。将模型应用于新的上下文和数据集通常需要新的训练数据，因此需要大量的人工编码。例如，大多数使用电影评论数据构建的分类器都存在对该数据的偏见，并且无法捕获其他类型文本（例如正式评论或博客文章）的一些细微差别和特定特征。&lt;/p&gt;
+&lt;p&gt;最成功的情感分析模型之一是斯坦福情感分析深度学习（Socher 等人，2013 年）。这是一种完全不同的机器学习方法，因为标签不是文档或句子，而是短语，以及它们在解析树中的分析。由于使用了解析信息，分类器实际上学习了语法信息以及识别单个单词极性的线索。 Socher 等人 (2013: 1633) 认为“[f] 从语言或认知的角度来看，在处理语义任务时忽略词序是不合理的”。&lt;/p&gt;
+&lt;p&gt;情感分析的另一种主要方法是基于词典或基于字典的方法。这些通常也称为基于规则的，因为字典是按照某些规则应用的。在这种方法中，文本的情感值是从文本中单个单词的情感方向中导出的，并使用现有的字典。字典包含单词及其极性（优秀是积极的；可怕的是消极的）。当遇到新文本时，将文本中的单词与字典中的单词进行匹配，并使用各种聚合算法聚合它们的值。文本中单词的正/负值的聚合产生了整个文本的语义方向。图 1 提供了这两种方法的简化表示。SerranoGuerrero 等人（出版中）还提供了情绪分析的不同方法的视觉分类。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;%e5%88%86%e7%b1%bb.png&#34; alt=&#34;img&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;基于词典的方法已被证明在不改变词典的情况下跨不同领域是稳健的（Taboada 等人 2011）。此外，Brooke 等人 (2009) 表明，将词典移植到新语言或新领域并不是一项繁重的任务，而且可能比在新领域为分类器标记数据更轻松。&lt;/p&gt;
+&lt;p&gt;基于词典的模型利用文本中包含的语言信息。因为它们在计算方法和语言方法之间的良好协同作用方面表现出最大的希望，所以我将在本节的其余部分重点介绍这些方法，描述哪些语言方面有助于准确提取情感。&lt;/p&gt;
+&lt;p&gt;词典方法需要确定哪些词或短语是相关的（即哪些词捕捉句子或文本的评价意义）；哪些句子是相关的（即，文本的某些句子或部分是否更能代表其方向？）；以及如何聚合提取的单个单词或短语。我在下面依次讨论。&lt;/p&gt;
+&lt;p&gt;2.1 Which words and phrases&lt;/p&gt;
+&lt;p&gt;大多数情感分析研究都集中在形容词的评价性质上。形容词传达了文本中的大部分主观内容，并且已经付出了大量努力来提取形容词的语义方向（即正面和负面价值）。 Hatzivassiloglou &amp;amp; McKeown (1997) 率先通过关联提取语义方向，使用协调：短语 excellent and X 预测 X 将是一个积极的形容词，在我们不知道 X 极性的情况下。Turney (2002)， Turney &amp;amp; Littman (2002, 2003) 使用了类似的方法，但这次使用 Web 作为语料库。在他们的方法中，如果形容词 X 主要出现在其他肯定形容词的附近，而不仅仅是在一个协调的短语中，那么它就是肯定的。&lt;/p&gt;
+&lt;p&gt;然而，研究人员越来越多地注意到，大量的情感是通过其他词类传达的，例如名词（masterpiece, disaster）、动词（love, hate）或副词（skilfully, poorly），以及包含这些词的短语(Benamara et al 2007, Subrahmanian &amp;amp; Reforgiato 2008)。有趣的是 Sokolova 和 Lapalme (2008) 只使用动词，这也许是因为在某些情况下，避免了用正面和负面形容词表达的直接评价。 （作者研究了消费者评论和美国国会辩论。）
+字典往往包含正面和负面单词的列表（即极性）。许多基于词典的方法还包括有关强度的信息，即该词的正面或负面程度。例如，在 Wiebe 及其同事的主观词典中（Wiebe et al 2004，Wilson et al 2009），单词可以分为以下几类：&lt;/p&gt;
+&lt;p&gt;• Positive – strong    absolve, accolade, altruistic&lt;/p&gt;
+&lt;p&gt;• Positive – weak       accept, abundance , affluent&lt;/p&gt;
+&lt;p&gt;• Neutral                     accentuate, alliance, alert&lt;/p&gt;
+&lt;p&gt;• Negative – weak      abolish, addiction, alienated&lt;/p&gt;
+&lt;p&gt;• Negative – strong    abuse, abomination, afraid&lt;/p&gt;
+&lt;p&gt;其他词典具有更细粒度的尺度。我们系统中的字典，语义方向计算器 (SO-CAL) 有一个 10 分制，从 -5 到 +5，这已被证明与人类主体的判断一致 (Taboada et al 2011)。表 1 中提供了一个样本列表及其在不同词典中的值。主观性词典指的是 Wiebe 及其同事的词典，上面的词就是从中提取的。&lt;/p&gt;
+&lt;p&gt;SO-CAL 是 Taboada et al (2011) 的词典，而 SentiWordNet (Baccianella et al 2010) 是从 WordNet 中提取的一组词，添加了正负值和客观值。 SentiWordNet 确实具有与这些词相关的强度，但需要针对同一个词跨不同的意义和词性进行计算。为简单起见，我们在这里简单地指出了极性。最后，Macquarie 词典是一个庞大的单词集合，通过遍历 Roget 的同义词库（Mohammad 等人 2009），用语义方向注释。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;%e7%ad%89%e7%ba%a7.png&#34; alt=&#34;img&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;一个重要的问题，无论所考虑的词性如何，都是情感词典的覆盖范围。很难估计一种语言的评价词典有多大。英语词典（绝大多数研究的对象；见下文第 4 节）范围从 SO-CAL（Taboada 等人 2011 年）的大约 5,000 个单词或 Wilson 等人（2009 年）提出的 8,000 个主观线索到38,000 个 SentiWordNet（Baccianella 等人，2010 年）或近 76,000 个 Macquarie Semantic Orientation Lexicon（Mohammad 等人，2009 年）。目前尚不清楚最佳大小是多少，或者一种语言是否可能包含数十万个评价术语。&lt;/p&gt;
+&lt;p&gt;我们的研究小组发现，大词典往往会捕获更多噪音，从而导致自动提取情感的结果不准确（Taboada 等人，2011 年）。&lt;/p&gt;
+&lt;p&gt;仔细检查情绪词典，以及（特别是）在线表达的意见，发现正面词的出现频率相对高于负面词。这种现象被描述为Pollyanna Principle的一种形式（Boucher &amp;amp; Osgood 1969），其中积极的词在标记和类型方面都有更高的频率，因为我们倾向于积极地记住过去的事件。一些指标表明，确实有大量在线评论是正面的。 TripAdvisor 自己的分析表明，酒店和目的地的评论大多是正面的（平均 4.08 分，满分 5 分）&lt;/p&gt;
+&lt;p&gt;对应的是Negativity Bias，它假设消极事件对我们的心理状态和行为有更强的影响 (Rozin &amp;amp; Royzman 2001)。如果存在负面偏见，则可以解释负面术语的频率较低，因为它们的影响更强。 Jing-Schmidt (2007) 认为，由于委婉语和政治正确性，我们使用的消极术语少于积极术语。否定项也可能只是被否定的肯定项。如果只计算评价词，而不考虑否定词（见下一节），那么自然好和不好都会被算作正面。&lt;/p&gt;
+&lt;p&gt;总的说，关于情感分析的任务，决定将哪些词包含在字典中的过程的一个重要部分与如何相对于彼此权衡它们有关。如果负面词的存在更能表明负面评论，那么负面词可能在最终聚合中具有更大的权重。&lt;/p&gt;
+&lt;p&gt;2.2 Intensification and downtoning; irrealis and nonveridicality&lt;/p&gt;
+&lt;p&gt;​      强化和降调；非现实性和非真实性&lt;/p&gt;
+&lt;p&gt;无论选择何种词类来传达情感，都可以通过修改来强化和淡化它们。一般术语增强器用于改变单个单词强度的设备，无论是通过提高还是降低。这些也被描述为价移器 (Zaenen &amp;amp; Polanyi 2004)，以及放大器与降调器 (Quirk et al 1985)。将修饰语（无论是增强剂还是降调剂）考虑在内一直被证明可以提高情绪分析系统的性能（Carrillo de Albornoz &amp;amp; Plaza 2013、Kennedy &amp;amp; Inkpen 2006、Morsy &amp;amp; Rafea 2012、Taboada 等人 2011）。&lt;/p&gt;
+&lt;p&gt;已经使用简单的加法和减法计算了强化的影响（Kennedy &amp;amp; Inkpen 2006，Polanyi &amp;amp; Zaenen 2006）。例如，如果一个正面形容词的值为 2，则放大的（或积极强化的）形容词将变为 3，而低调的形容词将变为 1。然而，强化词并非都在同一水平上强化。考虑extraordinary 和rather 之间的区别。另一个考虑因素是被强化的词的价值也发挥了作用。量表较高端的词可能会更加强烈，这可以从真正美妙和真正好之间的区别中看出。事实上，后者可能经常被讽刺使用。模拟这些差异的一种方法是使用乘法而不是加法/减法，即，将增强器置于百分比范围内。 Taboada 等人 (2011) 提出了以下价值观：&lt;/p&gt;
+&lt;p&gt;• most  +100%&lt;/p&gt;
+&lt;p&gt;• really +15%&lt;/p&gt;
+&lt;p&gt;• very   +15%&lt;/p&gt;
+&lt;p&gt;• somewhat -30%&lt;/p&gt;
+&lt;p&gt;• arguably -20%&lt;/p&gt;
+&lt;p&gt;Polanyi 和 Zaenen (2004) 还包括其他元素作为价移，例如预设项（even，barely）。 Consider It is barely sufficient，它建立了一个假设，即尽管足够是适度积极的，但在这种情况下并非如此，因为预期会出现更好的情况。&lt;/p&gt;
+&lt;p&gt;在降调的背景下，通常会讨论许多现象，这些现象表明单个单词和短语对于情感分析的目的可能不可靠。 Irrealis 通常指的是表明话语中提到的事件不是事实的表达。&lt;/p&gt;
+&lt;p&gt;非真实性更广泛，包括所有非真实的上下文，即不基于真理或存在的上下文（Giannakidou 1995，Zwarts 1995）。在之前的工作中，我们将非真实运算符定义为包括否定（见下一节）、情态动词、内涵动词（相信、思考、想要、建议）、祈使句、疑问句、条件句的性质、习惯句和虚拟语气，在具有虚拟语气表达的语言 (Trnavac &amp;amp; Taboada 2012)。考虑 (1) 中的意向动词 thought 和情态 would 以及 (2) 中的情态加疑问句的效果，这完全否定了 suitable 或 more suitable 中可能存在的任何正面评价。&lt;/p&gt;
+&lt;p&gt;(1) I thought this movie would be as good as the Grinch.&lt;/p&gt;
+&lt;p&gt;(2) Couldn&amp;rsquo;t you find a more suitable ending?&lt;/p&gt;
+&lt;p&gt;情感分析中的普遍共识是，非真实性和不真实性会导致包含它的句子中任何情感表达的不可靠性（Benamara 等人 2012 年，Denis 等人 2014 年，Morante 和 Sporleder 2012 年，Taboada 等人 2011 年，Wilson 等人 2009 年), 但没有足够的研究来探索评估是如何受到影响的。
+生物医学文本处理领域的一个相关研究领域是推测和否定的作用。在生物医学文本处理中，目标是从研究文献中提取事实信息。在这种情况下，建立了与情绪研究的联系，因为将事实信息与观点或推测区分开来非常重要。这一领域的大量研究都集中在检测推测和否定上，其中一些是在 BioScope 语料库的帮助下进行的。 BioScope 语料库 (Vincze et al 2008) 是摘要、论文和临床报告的集合，并用表示否定和推测的线索以及这些线索的范围进行了注释。&lt;/p&gt;
+&lt;p&gt;例如，动词暗示并指示引入一个发现信号，表明该发现并不完全可靠。在该领域中确定的猜测线索与上面讨论的非真实性运算符部分重叠。线索的例子有：形容词和副词（probable, likely, possible）；情态动词（may, might, could）；推测动词（suggest, suspect, suppose, seem）；和一系列多词提示（no evidence/proof that, raise the possibility/question, whether or not）（Farkas 等人 2010）。该领域的工作越来越多地利用完整句子解析或依赖解析来识别线索的范围（Velldall 等人 2012）。&lt;/p&gt;
+&lt;p&gt;2.3 Negation&lt;/p&gt;
+&lt;p&gt;与正面和负面术语之间的频率不对称一样，事实证明否定通常显示出有趣的不对称性，对情绪分析具有重要影响。
+否定检测通常涉及查找否定词或否定指示，例如负极性项（出现否定时出现的词，如any or at all）。然而，最重要的任务是准确地捕捉否定的范围，因为重要的是只否定被否定影响的评价项目。
+除了通常的否定词 not 外，还应考虑其他否定词，如 no、none、nobody、nothing 和 never。其他可能产生负面影响的词是 without、almost 和 lack（既作为名词又作为动词）。在 Saurí (2008) 和 Blanco 和 Moldovan (2013) 中可以找到否定及其范围的描述，以及如何通过计算识别否定。
+语言学家熟知的否定方面是句法否定与词法否定（3a 与 3b）、否定提升（3c）、否定范围和仅对一个论点的部分否定（3d 和 3e）。除非另有说明，否则示例均取自 SFU Review Corpus (Taboada 2008)。&lt;/p&gt;
+&lt;p&gt;(3) a. Mike Myers recycled his entire CV of SNL characters to create a Cat in the Hat that is unworthy of his name.&lt;/p&gt;
+&lt;p&gt;b. Mike Myers recycled his entire CV of SNL characters to create a Cat in the Hat that is not worthy of his name.&lt;/p&gt;
+&lt;p&gt;17 c. Our Sony phones died after 7 years… which I don’t think it’s too bad for a cordless phone.&lt;/p&gt;
+&lt;p&gt;d. I had stayed at Westin hotels before, and was never disappointed until now.&lt;/p&gt;
+&lt;p&gt;e. Propaganda doesn&amp;rsquo;t succeed because it is manipulative, it works because people WANT it, NEED it, it gives their life a direction and meaning and guards against change. (Anonymous 2013)&lt;/p&gt;
+&lt;p&gt;假设否定及其范围已被充分识别，下一个问题是确定否定如何影响情感词的字典值。一个直接的策略是在否定项的范围内反转词汇项的极性。例如，在字典单词同时具有极性和强度的系统中，good 可能具有 +3 的值，而在否定的情况下，not good 可能变为 -3。这种方法通常称为转换否定 (Saurí 2008)。&lt;/p&gt;
+&lt;p&gt;然而，转换否定并不能很好地捕捉否定的微妙之处（Benamara 等人 2012 年，Liu 和 Seneff 2009 年）。用高度肯定的话说，否定似乎意味着降调，而不是逆转。例如，假设 excellent 可能是 +5 形容词，not excellent hardly seems would be worth to a -5，相反的极端。事实上，它似乎比我们的 -3 不好的例子更积极。似乎很难否定一个非常积极的词而不暗示一个不太积极的词在某种程度上是可能的（不是很好，但也不可怕）。一种可能的解决方案是使用移位否定，这种方法中否定符的作用是将量表中的否定项移动一定量，但不会使其与原始项相反。在我的小组实施的 SO-CAL 中，移位否定将极性移动了四个点，导致了示例 4 中所示的变化。&lt;/p&gt;
+&lt;p&gt;(4) a. excellent (+5) → not excellent (+1)&lt;/p&gt;
+&lt;p&gt;b. terrific (+5) → not terrific (+1)&lt;/p&gt;
+&lt;p&gt;c. sleazy (-3) → not sleazy (+1)&lt;/p&gt;
+&lt;p&gt;d. horrid (-5) → not horrid (-1)&lt;/p&gt;
+&lt;p&gt;Litotes 提出了一个特别有趣的挑战。该现象涉及通过否定负面项目（not bad）或相反，使用否定的正面来表达负面评价（not my best day)）来传达轻微的正面。效果似乎是淡化评价的整体效果之一，无论是正面的还是负面的。&lt;/p&gt;
+&lt;p&gt;否定的一个值得讨论的方面是它的显着性。消极的陈述往往被认为比肯定的陈述更明显，无论是在实用上还是心理上都是如此（Horn 1989，Osgood &amp;amp; Richards 1973）。否定形式根据其跨语言的语言形式进行标记（Greenberg 1966），并且正如我们之前提到的，它们不太常见。情绪分析研究发现，准确识别负面情绪更加困难，这可能是因为我们使用的负面术语较少，而且负面评价是用正面术语表达的（Pang &amp;amp; Lee 2008，第 3 章）。从某种意义上说，解决这个问题的一种方法是遵循负面偏见：如果出现负面词，那么它就会产生更大的影响。这是通过在聚合中权衡负面词而不是正面词来实现的（Taboada 等人 2011）。&lt;/p&gt;
+&lt;p&gt;另一种形式的否定对情感分析提出了特别困难的挑战：讽刺。到目前为止，还没有关于如何处理（口头）反讽的成功建议，在大多数情况下，反讽涉及陈述与原意相反的内容，并且可以理解为一种狭义的讽刺形式（更一般地说，是尖锐和攻击性的）评论）。&lt;/p&gt;
+&lt;p&gt;传达讽刺意味的意图并不经常公开表达。已经尝试使用表情符号，其中表情符号带有可以被解释为与先前陈述相反的极性（Carvalho 等人 2009 年，Tsur 等人 2010 年）。其他表面指示符是首字母缩略词或拟声表达，表示笑声（LOL，嘿嘿），大量使用感叹号或引号。然而，反讽所利用的资源比仅仅几个表面指标要丰富得多，有时甚至很难被人类发现 (Utsumi 2000)。事实上，以下示例以及 Tsur 等人 (2010) 的所有评论标题，如果没有一些上下文知识，最重要的是，如果没有世界知识（例如，提到一本书的封面作为主要正面的事实），将很难解释这本书的特点意味着对本书内容的负面评价）。
+(5) a. Love the cover (book)&lt;/p&gt;
+&lt;p&gt;b. Where am I? (GPS device)&lt;/p&gt;
+&lt;p&gt;c. Trees died for this book? (book)&lt;/p&gt;
+&lt;p&gt;d. Be sure to save your purchase receipt (smart phone)&lt;/p&gt;
+&lt;p&gt;e. Great for insomniacs (book)&lt;/p&gt;
+&lt;p&gt;f. Defective by design (music player)
+语料库语言学的经典著作表明，某些模式可用于检测反讽。 Louw (1993) 表明，他称之为语义韵律的冲突表明具有讽刺意味。通过语义韵律，他指的是一个词所包含的积极或消极的含义，而不仅仅是这里描述的极性。例如，动词 set in 乍一看是一个中性词。然而，在检查语料库时，可以确定它只与负面事件搭配，即只有不好的事情出现。&lt;/p&gt;
+&lt;p&gt;同样，一个人总是执着于追求负面的行为。他用这个概念来表明完全也带有消极的韵律，因为它只加强消极的词。当它伴随着一个积极的词时，它被反讽地使用。 Louw 在讨论小说《小世界》中的大卫·洛奇 (David Lodge) 如何将参加会议的学者描述为致力于自我提升时，展示了同样的原则。
+然而，尽管有一些语言学见解，但目前大多数关于讽刺和讽刺检测的工作仅限于使用已经存在的地方的特征来检测它。例如，一种常见的方法是收集带有#sarcasm 标签的推文，然后使用这些作为标记实例来学习将它们与非讽刺评论区分开来的特征 (Bamman &amp;amp; Smith 2015)。将机器学习和分类技术应用于此问题的优势在于，它通常有助于揭示分析师不容易访问的文本特征。&lt;/p&gt;
+&lt;p&gt;经常使用的特征包括某些单词和表达的存在（dare、clearly、lol、how dare、I&amp;rsquo;m shocked）、词汇密度、大写和表情符号以及增强词。 Bamman 和 Smith（2015 年）发现，虽然推文特征很有用，但作者、观众和推文特征的组合最能检测反讽。 Bamman 和 Smith 建议当作者和收件人实际上并不认识并且之前没有互动时使用讽刺标签。这意味着当作者认为他们会因为缺乏上下文而被误解时，他们不得不添加标签。朋友或同龄人之间可能存在表现出不同特征的讽刺实例，因此不会被这种方法产生的分类器检测到。&lt;/p&gt;
+&lt;p&gt;当话语关系隐含或明确地被连词或连接词标记时，在检测话语关系时也提出了类似的论点 (Sporleder &amp;amp; Lascarides 2008)。使用通常通过连词显式标记为训练示例（删除连词）的关系来检测典型的隐式示例会导致性能不佳，这可能是因为显式关系与隐式关系不共享许多特征。&lt;/p&gt;
+&lt;p&gt;所有检测单词和短语的工作，以及价变换器的影响，都基于组合性原则。研究人员理所当然地认为，一份文件、一句话或一条推文的情感是其各部分的总和。有些部分比其他部分贡献更多，有些会减少或抵消情绪，但通常假设可以将组件相加、相减或相乘以产生可靠的结果。从讽刺的例子中可以很容易看出，这种假设并不总是正确的。&lt;/p&gt;
+&lt;p&gt;根据 Wilson、Wiebe 和 Hoffmann 所描述的先验极性（Wilson et al 2005，Wilson et al 2009），单词在上下文中具有新的含义是无法预测的。 Haas 和 Versley（2015 年）指出，看似中性的形容词在与电影的某些方面（精心制作的延续、扩大的视野）结合时可能会变得极端，就像被强化的词一样（简单的侵入性被认为是消极的，但侵入性是中性的）。&lt;/p&gt;
+&lt;p&gt;2.4 Sentence and clause patterns&lt;/p&gt;
+&lt;p&gt;评价和主观性不仅通过单个词和短语来表达，而且常常通过整个句子和句子中的特定模式来表达。基于模式的语言描述在这里特别相关，因为它们避免了词汇和语法之间的区别，而是将它们视为同一描述对象的一部分 (Hunston &amp;amp; Francis 2000)。&lt;/p&gt;
+&lt;p&gt;主观性跨越两者，有时由单个词传达，有时由短语传达，有时由整个语法结构传达。 Hunston 和 Francis 将一个词的模式定义为“所有与该词有规律地关联并有助于其意义的词和结构”。 （2000 年：37）。在这里，我还包括对语法结构的更一般的描述，例如倒装。&lt;/p&gt;
+&lt;p&gt;Hunston (2011) 对模式和评估进行了最深入的描述，其中明确说明某些模式有助于评估意义，并区分执行评估功能的模式，即“执行”模式，根据到 Hunston (2011: 139)，以及报告评估的模式。表演模式的例子是“它”和“那里”模式，如 It is amazing that&amp;hellip;;有一些令人钦佩的事情&amp;hellip;&amp;hellip; Hunston 还讨论了伴随评估的短语，例如（is）humanly possible；到点;或接壤。&lt;/p&gt;
+&lt;p&gt;许多其他研究人员已经注意到某些模式表达主观性的潜力。 Andersen 和 Fretheim (2000) 讨论了 I think (that)&amp;hellip; 模式，其特征是矩阵子句中的动词，例如 think、hope、understand、wonder 和补语子句。他们讨论了结构如何传达主语对补语从句的态度。虽然主语通常是第一人称，但有些动词允许第三人称主语（She thought that the lock had been changed, but not She take it that the lock had been changed）。&lt;/p&gt;
+&lt;p&gt;Thompson (2002) 讨论了将诸如 think 之类的介绍性动词视为认知立场或证据性标记的必要性，并重新考虑从句作为“宾语补语”的地位。 Verhagen（2005）认为补语从句不是“宾语”，而是复句的要点，所谓矩阵从句（我认为……）指导受话人如何理解补语。&lt;/p&gt;
+&lt;p&gt;Scheibman (2002) 在对美国英语会话的研究中，讨论了某些句法结构的主观内容，例如关系从句（她的语料库中最常出现的话语类型）。其中的谓词通常是形容词（表达对主语的评价）和谓语名词（表达主语和谓语之间可根据主观标准识别的关系）。&lt;/p&gt;
+&lt;p&gt;Scheibman (2002: 157) 认为，关系结构中的形容词和谓词名词都在主观上起作用，“在某种意义上，这些话语所传达的关系取决于说话者的观点。”用于表达观点的其他特征有：第一人称单数代词 (I)、现在时、情态、认知动词、强化词和情态副词。&lt;/p&gt;
+&lt;p&gt;词序通常在传达立场方面发挥作用。 Stein (1995) 讨论了它在用英语表达主观意义时的作用。根据 Stein 的说法，（6）到（8）中的例子代表了情绪表达的倾向，第一个是最主观的（Stein 1995：132）。&lt;/p&gt;
+&lt;p&gt;(6) Bitterly did they repent their decision.&lt;/p&gt;
+&lt;p&gt;(7) Bitterly they repented their decision.&lt;/p&gt;
+&lt;p&gt;(8) They repented their decision bitterly.&lt;/p&gt;
+&lt;p&gt;Wiebe 及其同事投入了大量精力来寻找句子中主观性的指标（例如，Wiebe &amp;amp; Riloff 2005、Wiebe 等人 2004、Wilson 等人 2006）。他们提出了一组关于主观性的线索，其中一些是词汇上的，一些是句法上的。词汇线索中有心理动词和判断动词（dread, love, commend, reprove）；通常涉及体验者的动词和形容词（fuss, worry, pleased, upset, embarrass, dislike）；以及之前被注释为极性的形容词（Hatzivassiloglou &amp;amp; McKeown 1997）。句法线索是从手动注释的数据中学习的（Riloff 等人 2003 年，Wiebe 等人 2003 年）。&lt;/p&gt;
+&lt;p&gt;2.5 Relevant sentences&lt;/p&gt;
+&lt;p&gt;很明显，并非文本的所有部分都对其中表达的可能的总体意见有同等的贡献。电影评论可能包含与同一导演或同一演员的其他电影相关的部分。这些部分与作者对正在讨论的电影的看法没有或几乎没有关系。更糟糕的情况是作者讨论了一个完全不相关的话题（比如他们在看电影前去过的餐馆）。一般来说，这是一个主题检测问题，已经提出了解决方案（例如，Yang 1999 的统计方法）。&lt;/p&gt;
+&lt;p&gt;一个稍微不同的问题是包含大部分相关信息的文本，但其中一些信息比其他信息更相关。不太相关的方面包括电影或书籍情节的背景，或关于产品任何方面的额外事实信息。这个问题与区分意见与事实，或主观与客观信息有关。 Janyce Wiebe 及其同事用观点的表达注释了语料库 (Wiebe et al 2005)，并开发了分类器来区分客观句子和主观句子 (Wiebe &amp;amp; Riloff 2005)。衡量文本的另一种方法是确定哪些部分包含评估，哪些主要是描述。&lt;/p&gt;
+&lt;p&gt;特别是在评论中，可能存在与评估无关的产品或上下文描述。例如，电影可能会描述情节，以及演员之前的角色。 Taboada 等人（2009）提出了一种自动将文本中的段落分类为描述或评价的方法，并表明它提高了情感分析的准确性。&lt;/p&gt;
+&lt;p&gt;最后，相关性的另一个方面与总结或捕捉总体观点的文本部分有关。因此，在包含与电影相关的意见的部分中，一些可能比其他的更有用。有人指出，文本不同部分的形容词（如果这些是主要使用的词）可能具有不同的权重（Pang 等人 2002 年，Taboada 和 Grieve 2004 年）。&lt;/p&gt;
+&lt;p&gt;Taboada 和 Grieve (2004) 通过更重地权衡出现在文本末尾的词来提高语义方向计算器的性能。这与约翰·辛克莱 (John Sinclair) 的亨斯顿和汤普森 (Hunston and Thompson, 2000: 11) 的观察相一致，即“评价，无论是在写作中还是在演讲中，往往发生在话语的边界点”。&lt;/p&gt;
+&lt;p&gt;2.6 Discourse patterns&lt;/p&gt;
+&lt;p&gt;一旦我们从文本中提取了单词和短语，无论是否对句子使用剪枝方法，下一步就是聚合这些单个单词的语义方向或评价值。为此目的最常用的方法是对文本中找到的单词的 SO 进行平均 (Turney 2002)。包含十个正面词和两个负面词的文本将被标记为正面。在许多情况下，语篇结构在论证的构建中起着重要作用，这显然是失败的。考虑以下示例，电影《最后的武士》的评论的一部分。正面的词用粗体表示，负面的评价用下划线标出（目前，我们主要考虑的是词，而不是它们更广泛的上下文，例如情态动词和完成体）。&lt;/p&gt;
+&lt;p&gt;(9) It could have been a &lt;strong&gt;great&lt;/strong&gt; movie. It could have been &lt;strong&gt;excellent&lt;/strong&gt;, and to all the people who have forgotten about the older, &lt;strong&gt;greater&lt;/strong&gt; movies before it, will think that as well. It does have beautiful scenery, some of the &lt;strong&gt;best&lt;/strong&gt; since Lord of the Rings. The acting is &lt;strong&gt;well done&lt;/strong&gt;, and I &lt;strong&gt;really liked&lt;/strong&gt; the son of the leader of the Samurai. He was a &lt;strong&gt;likeable&lt;/strong&gt; chap, and I &lt;u&gt;hated&lt;/u&gt; to see him die. But, other than all that, this movie is nothing more than &lt;u&gt;hidden rip-offs&lt;/u&gt;.&lt;/p&gt;
+&lt;p&gt;这显然是一个负面评价，但它是以一种我们称之为白话论证的写作风格呈现的（Taboada &amp;amp; Gómez-González 2012），在最后的致命缺陷之前呈现了一系列积极的方面，这总结意见。这些例子为考虑语篇结构提供了一个令人信服的理由，特别是语篇、连贯性或修辞关系（Mann &amp;amp; Thompson 1988）。句子内和句子之间的这种关系可能会改变情感词的极性。&lt;/p&gt;
+&lt;p&gt;让步和条件的关系是在各种话语理论下提出的解释话语结构的一些关系。例如，条件关系将限制正面评价的范围。在示例 (10) 中，有趣的正面评价受到读者必须能够改变他们对作者的典型风格和以前书籍的期望的条件的影响。&lt;/p&gt;
+&lt;p&gt;(10) It is an interesting book if you can look at it with out expecting the Grisham “law and order” style.&lt;/p&gt;
+&lt;p&gt;在下面的 (11) 中，一个让步关系，用 while 标记。从句的极性可能是负面的（一本书是不同的，特别是对于多产的作者来说，往往会引起忠实读者的焦虑）。主句的极性明显是正面的（disappoint + not)）。这种关系在从句和主句的组合中带来的变化是第一句中潜在否定的逆转之一。&lt;/p&gt;
+&lt;p&gt;(11) While this book is totally different than any other book he has written to date, it did not disappoint me at all.&lt;/p&gt;
+&lt;p&gt;连贯关系以有趣的方式与否定相互作用。 Verhagen (2005) 指出了让步关系和因果关系之间的负-正关系，如 (12) 中，其中对 (12a) 中因果关系的否定导致 (12b) 中的让步解读。&lt;/p&gt;
+&lt;p&gt;(12) a. John is the best candidate because he happens to have a Ph.D.&lt;/p&gt;
+&lt;p&gt;b. John is not the best candidate because he happens to have a Ph.D.&lt;/p&gt;
+&lt;p&gt;这个例子有趣的方面是 (12b) 中的否定并不一定意味着否定 best 传达的积极评价。这更像是对因果关系的否定，即约翰仍然是最佳人选，但原因不是他有博士学位。 Blanco 和 Moldovan (2013) 将这种现象称为部分否定。&lt;/p&gt;
+&lt;p&gt;到目前为止，在情感分析中使用连贯关系主要是一个提议，因为自动解析文本语篇结构的方法仍在开发中，尽管在过去几年取得了重大进展 (Feng 2015, Feng &amp;amp; Hirst 2014) , Hernault 等人 2010 年，Joty 等人 2015 年）。一个相关的研究方向一直在研究极性词在语篇关系的语境中是如何变化的（Benamara et al 2013, Chardon et al 2013, Trnavac &amp;amp; Taboada 2012）。&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;情感分析中有趣项目的一小部分样本&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;本次调查的目标不是全面并包括迄今为止情绪分析的所有示例。在学术界和研究环境以及商业应用中，实在是太多了。在这里，我将只选择一些特别有趣的，因为它们的方法或因为所研究的主题或文本类型。&lt;/p&gt;
+&lt;p&gt;首先，关于文本类型，除了经过充分研究的在线评论之外，许多其他类型的文本也在根据其情感内容进行分析。政治当然是另一个值得考虑的成熟领域，早期的工作集中在辩论、博客和在线讨论上（Durant &amp;amp; Smith 2006，Mullen &amp;amp; Malouf 2006，Thomas 等人 2006）。 Tumasjan 等人 (2010) 利用有关政党的推文的潜力来确定推文与政党声明的价值观的一致性程度。最有趣的是他们发现消息量可能是选举结果的一个很好的指标，尽管这被批评为数据收集的人为因素（Jungherr 等人，2012 年）。&lt;/p&gt;
+&lt;p&gt;这一领域正在产生新的工作，目前的方法不仅利用文本，还利用作者的特征及其在线互动（Qiu 等人，2015 年）。许多关于政治话语的工作都使用 Twitter 和在线媒体作为来源。与其他形式的社交媒体一样，研究人员发现讽刺会带来一个特别困难的问题（Bakliwal 等人，2013 年）。&lt;/p&gt;
+&lt;p&gt;许多其他文本包含评估，有时是个人的和敏感的，但仍然值得分析。 Stewart (2015) 最近进行的一项有趣研究从定量的角度分析了学生在课程评估中的书面评论，并使用评估框架 (Martin &amp;amp; White 2005)。我不知道有任何大规模的自动分析学生评价。&lt;/p&gt;
+&lt;p&gt;如果可以解决保密问题，这个领域可以带来有趣的应用。 Pestian 等人 (2012) 在一项共同任务中提供的遗书具有更敏感的性质。这种分析的一个重要结果是确定那些试图自杀的人中哪些人可能会再次尝试。这是一个恰当的情绪识别任务，而不是简单的极性。被注释的情绪，因为它们被认为是很好的预测指标，其中包括：虐待、愤怒、悲伤、宽恕、爱、骄傲，以及对他人的指示。&lt;/p&gt;
+&lt;p&gt;Bobicev 等人（出版中）研究在线医学论坛中表达的感受。他们用五种感觉来注释关于个人健康（体外受精经验）的讨论语料库，他们称之为情绪：鼓励、感激、困惑、事实和认可。他们使用语料库作为训练数据构建了一个分类器来自动识别这些情绪，表明可以可靠地识别情绪。这是一个特别有趣的问题，因为通常将消息分为正面和负面极性的分类不会为其目的提供足够细粒度的信息，其中包括从医疗政策讨论中提取情绪。&lt;/p&gt;
+&lt;p&gt;顺便说一句，其中一些项目研究的是情感而不是情绪（极性）。对一般情绪及其自动识别的研究可能值得进行另一项调查。在本文中，我只是指出了与情绪分析重叠的领域。&lt;/p&gt;
+&lt;p&gt;绝大多数关于情感的研究都是针对文本进行的（与情感研究不同，在情感研究中，语音通常根据韵律、音高和语调进行分析）。然而，在从图像中检测情绪方面正在进行一些工作。 Borth 等人 (2013) 和 Wang 等人 (2015) 都结合使用在线发布的图像特征和关于图像的文本（评论和标签）来识别图像传达的情感。&lt;/p&gt;
+&lt;p&gt;一个相关的兴趣领域是检测垃圾评论或虚假评论。评论的流行以及它们在购买决策中的重要性导致人们试图改变评级。公司有时会付钱给作家，让他们对竞争对手的业务发表大量正面评论或负面评论。这种做法导致了法庭诉讼和和解，公司被判为支付正面评价或自行撰写评价而被判有罪（Streitfeld 2013）。 TripAdvisor 最近因未能阻止其网站上的虚假评论而被罚款 500,000 欧元（Scott 2013）。&lt;/p&gt;
+&lt;p&gt;虚假评论检测采用了许多被证明对任务非常有用的特征，但在语言上并不那么有趣，例如用户 ID、用户活动、URL 和时间模式（Li et al 2014）。然而，一些研究依赖于作者归属中采用的相同原则：通过词性分布的体裁识别、语言模式的相似性和文本的风格特征 (Feng et al 2012, Ott et al 2011)。这允许系统确定是否在不同的网站上发布了相同的评论，以及是否重复使用了某些股票短语。 Bing Liu 一直是该领域的领导者，并在他的调查中包括了关于如何检测虚假评论的一章 (Liu 2012)。&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;英语以外语言的情感分析&lt;/strong&gt;
+毫无疑问，英语是情感分析的主要研究对象。然而，英语并不是在线表达意见的唯一语言。相应地，有努力识别其他语言的情绪。方法各不相同。一个明显的途径是为所讨论的语言本地开发基于词典的方法或机器学习方法。在基于字典的方法中，这涉及创建语言中极性词的字典，以及识别否定和强化等现象的适当规则。在监督学习方法中，所需的主要组成部分是一组带标签的示例（文本、句子等）。
+另一个主要途径，如果“从头开始”的开发不可取或不可行，则涉及翻译。可以翻译其他语言的文本，然后使用基于英语的情感分析系统。或者可以拿英语词典并将其翻译成目标语言，但这还涉及调整所使用的任何规则。
+在情感分析方面正在研究的语言包括阿拉伯语 (El-Beltagy &amp;amp; Ali 2013, Salameh et al 2015)、中文 (Huang et al 2012, Wan 2008, Wang et al 2012, Ziyan et al in press), 法语 (Benamara et al al 2013, Ghorbel 2012, Marchand 2012), 德语 (Clematide &amp;amp; Klenner 2010, Haas &amp;amp; Versley 2015, Waltinger 2010), 西班牙语 (López et al 2012, MolinaGonzález et al 2013, Moreno-Ortiz &amp;amp; Pérez Hernández 2012, Vilares et al 2013 , Vilares 等人，2015 年）。在某些情况下，重点是不同语言的组合（Banea 等人 2014 年、Banea 等人 2008 年、Mihalcea 等人 2007 年、Popat 等人 2013 年）。&lt;/li&gt;
+&lt;li&gt;未来研究
+有关情绪分析的文献似乎以惊人的速度增加，而且通常很难跟上该领域的新发展。目前有许多令人兴奋和有趣的项目正在积极开发中。还有很多小的贡献，有时是累积的，有时是派生的。为了这个领域的繁荣，我认为需要认真考虑语言洞察力，并且必须建立衡量进展的原则性方法。最终，真正的考验是自动分类有多大用处。这是谷歌翻译提供的一种测试。如果可以使用通过谷歌服务获得的翻译，那么它们就足够了。另一方面，如果翻译或情感分类优于某些基线，但对某些实际目的无用，那么我们需要重新考虑该领域的发展方向。情绪分析的应用之一是将市场和股票的情绪与股价相匹配（Feldman 2013）。这里真正的考验是人们是否愿意打赌情绪与股价的相关性是准确的。
+与许多其他计算应用程序一样，正在开发的系统是内部开发的，不向公众开放。但是，如果您想自己测试情绪分析怎么办？ Serrano-Guerrero 等人（出版中）列出了 15 种不同的 Web 服务，这些服务允许文本输入和输出各种类型的情感信息。斯坦福深度学习模型（Socher 等人，2013 年）允许自由文本输入，以及用户输入系统已经提供的值。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<p>分享一篇情感分析：语言学概述</p>
+<p>该论文发表在PNAS：</p>
+<h2 id="下载资料">下载资料</h2>
+<ul>
+<li><a href="%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%EF%BC%9A%E8%AF%AD%E8%A8%80%E5%AD%A6%E6%A6%82%E8%BF%B0.pdf">下载脑图pdf</a></li>
+</ul>
+<h2 id="论文框架">论文框架</h2>
+<p>! <a href="%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%EF%BC%9A%E8%AF%AD%E8%A8%80%E5%AD%A6%E6%A6%82%E8%BF%B0.png">img</a></p>
+<h2 id="sentiment-analysis-an-overview-from-linguistics">Sentiment Analysis: An overview from Linguistics</h2>
+<p>情感分析是语言学和计算机科学交叉领域中一个不断发展的领域，它试图自动确定文本中包含的情感或正面/负面意见。情绪可以表征为通过语言表达的正面或负面评价。情感分析的常见应用包括自动确定在线发布的评论（电影、书籍或消费品）对所评论的项目是正面的还是负面的。情感分析现在是公司、营销人员和政治分析师进行的社交媒体分析的常用工具。情感分析研究从文本中的正面和负面词、这些词的上下文以及文本的语言结构中提取信息。这个简短的调查特别考察了语言知识对自动确定情绪问题的贡献。</p>
+<h3 id="1-sentiment-subjectivity-opinion-appraisal-affect-emotion">1. <strong>Sentiment</strong>, <strong>subjectivity, opinion, appraisal, affect, emotion</strong></h3>
+<p>“我思，故我在”可能先于笛卡尔的陈述。感觉似乎比思想更原始，但它们构成了我们生活的重要组成部分。情绪、意见及其在语言中的表达可能是最基本的人类特征之一。 Martin 和 White (2005) 建议将情绪状态或情感的表达制度化为另外两个类别。第一个是对他人的判断表达，第二个是欣赏的分类，或审美意见。情感、判断和欣赏一起捕捉我们如何传达我们的感受和意见，这是情感分析的研究对象。</p>
+<p>这种情绪和评价的表达在语言学和其他社会科学的不同总称下进行研究。在语言学中，影响研究（Batson et al 1992）、主观性和观点（Banfield 1982、Langacker 1990、Traugott 1995、Traugott 2010）、证据性（Aikhenvald 2004、Chafe &amp; Nichols 1986）、态度立场（Biber &amp; Finegan 1988） , Biber &amp; Finegan 1989), modality (Bybee &amp; Fleischman 1995, Palmer 1986, Portner 2009) and appraisal (Martin &amp; White 2005), 在每个领域仅举几例，所有这些都旨在解释我们如何使用语言来传达情感，评价和主观性。定义这些术语中的每一个很容易占用整篇论文。出于当前的目的，我将主观性称为信念、情感、评价或态度的语言表达（Wiebe 1994）。这与呈现事件或描述世界状况的客观陈述形成对比。</p>
+<p>语言学、传播学和心理学研究研究了我们如何表达、理解以及受主观性表达的影响（Caffi &amp; Janney 1994，Krippendorf 2004）；我们如何将情绪和观点与某些语言方面联系起来，例如特定的单词或句法模式（Biber &amp; Finegan 1989，Hunston 2011，Stein 1995）；以及我们如何根据语言表达表达的观点类型对语言表达进行分类（Martin &amp; White 2005）。在本次调查中，我将专注于所谓的情绪，即主观性作为积极或消极意见的表达。一个密切相关的领域是情绪和情绪术语的研究，特别是它们的分类（愤怒、惊讶、恐惧等）。一些项目试图同时捕捉两者，但我将在此处描述的研究主要涉及情绪。然而，许多技术和方法适用于以语言表达的情绪的研究和分类。</p>
+<p>在过去的几年里，伴随着对主观性和评价研究的纯理论兴趣，人们越来越关注我们如何在网上表达意见。这开辟了计算机科学和计算语言学中的情感分析领域，可以出于各种目的捕获主观性、意见和评价。这一研究领域也被称为“意见挖掘”，这可能是由于研究人员对数据挖掘和大数据的兴趣所致。</p>
+<p>在本文中，我简要总结了自动提取情感和意见的不同方法，并介绍了最新技术。特别是，我将讨论与语言学最相关的情感分析方面，以及交互有益的方面。 Pang 和 Lee（2008 年）、Liu（2012 年）以及 Sonntag 和 Stede（2014 年）提出了从计算角度进行的一般调查，而 Feldman（2013 年）是面向外行观众的简短概述。</p>
+<h3 id="2-the-analysis-part-computational-methods">2. <strong>The ‘analysis’ part: Computational methods</strong></h3>
+<p>方法和术语各不相同，但主要目标是确定一段文本或其中的一部分是否是主观的，如果是主观的，它是表达积极的还是消极的观点。观点的方向（即正面或负面）有时被称为语义方向。 Esuli 和 Sebastiani（2006 年）将问题定义为三个不同的方面：(i) 确定文本的主观性（即文本是否是事实性的，或者它是否表达了对其主题的意见）；
+(ii) 确定文本的极性，或确定给定的主观文本是否表达了对其主题的正面或负面意见； (iii) 确定文本极性的强度（即确定文本对其主题表达的正面意见是弱正面、轻微正面还是强烈正面）。</p>
+<p>Kim 和 Hovy (2004) 进一步合并了来源，并将意见定义为四元组，[主题、持有人、声明、陈述]，其中持有人相信关于该主题的声明，并将情绪与该信念相关联。情绪可能是积极的，也可能是消极的。</p>
+<p>大部分工作都集中在分析电影、书籍和消费品的评论上（Dave et al 2003，Hu &amp; Liu 2004，Kennedy &amp; Inkpen 2006，Turney 2002）。还有一个新兴的政治话语分析领域（Efron 2004，Mullen &amp; Malouf 2006），包括报纸上的评论文章。这样的工作可以在搜索引擎中找到应用：在搜索电影评论时，可以要求将评论进一步分类为正面或负面。公司也对其声誉及其产品感兴趣。跟踪在线讨论并评估它们是正面的还是负面的符合他们的利益。</p>
+<p>在政治生活和政策制定中的应用是显而易见的：一种新的民意调查形式可能会出现，在这种形式中，民意调查者跟踪在线讨论，而不是提问。一些项目还通过在线讨论 (Ahmad et al 2006) 或留言板上的投资者情绪 (Das &amp; Chen 2001) 来跟踪金融市场的演变。在另一个项目中，我们使用这些方法通过历史评论来追踪文学声誉 (Taboada et al 2006)。这些方法也可以应用于电子邮件消息 (Spertus 1997) 和客户服务查询 (Gamon 2004)。最近的应用程序涉及博客和微博的形式，例如 Twitter 或 Facebook 消息（Kiritchenko 等人 2014 年、Mohammad 等人 2013 年、Ortigosa 等人 2014 年、Thelwall 等人出现、Vilares 等人 2015 年），包括 Hedonometer 项目，尝试在 Twitter 上衡量幸福感（Dodds 等人，2015 年）。</p>
+<p>因此，情感分析的基本任务是获得足够的信息，以便在需要处理新项目（推文、句子、标题、摘录或全文）时，提取其特征以确定它是否包含正面或基于现有信息的负面情绪。</p>
+<p>该任务的关键方面是信息的来源。该问题存在两种主要方法：机器学习或基于词典。在机器学习方法中，构建了一个分类器，可以确定新文本的极性。分类器的构建要归功于其他项目（句子、文档等）的标记实例。这被称为监督学习，因为分类器是根据类别的好例子或坏例子来给定方向的。分类器了解到某些特征可以区分正面文本和负面文本。这些特征是学习中的参数，并且往往是一元组，即训练数据集中存在的单个单词或标记。</p>
+<p>分类可以是二元的（正面和负面），或者可以包括中性类别。机器学习方法的优点是，给定一个标记数据集，即先前已确定文档是正面或负面的数据集，训练是微不足道的，并且可以使用现有工具（例如 WEKA）非常快速地构建分类器, Witten 和 Frank (2005)。例如，使用一组 2,000 条电影评论构建了许多分类器，根据他们对所讨论电影的评价是正面还是负面进行标记（Pang 等人 2002 年）。在大多数情况下，它们的性能在 80% 左右或以上。也就是说，生成的分类器能够在 80% 的时间内正确确定未见数据的极性（Andreevskaia &amp; Bergler 2008、Bloom 等人 2007、Dinu &amp; Iuga 2012、Prabowo &amp; Thelwall 2009、Socher 等人 2011、Yessenalina 等人2010 年等）</p>
+<p>虽然机器学习方法因其准确性而备受青睐，但它们通常存在许多缺点。首先，因为它们是在非常具体的数据上训练的，所以它们通常不能移植到新类型。将模型应用于新的上下文和数据集通常需要新的训练数据，因此需要大量的人工编码。例如，大多数使用电影评论数据构建的分类器都存在对该数据的偏见，并且无法捕获其他类型文本（例如正式评论或博客文章）的一些细微差别和特定特征。</p>
+<p>最成功的情感分析模型之一是斯坦福情感分析深度学习（Socher 等人，2013 年）。这是一种完全不同的机器学习方法，因为标签不是文档或句子，而是短语，以及它们在解析树中的分析。由于使用了解析信息，分类器实际上学习了语法信息以及识别单个单词极性的线索。 Socher 等人 (2013: 1633) 认为“[f] 从语言或认知的角度来看，在处理语义任务时忽略词序是不合理的”。</p>
+<p>情感分析的另一种主要方法是基于词典或基于字典的方法。这些通常也称为基于规则的，因为字典是按照某些规则应用的。在这种方法中，文本的情感值是从文本中单个单词的情感方向中导出的，并使用现有的字典。字典包含单词及其极性（优秀是积极的；可怕的是消极的）。当遇到新文本时，将文本中的单词与字典中的单词进行匹配，并使用各种聚合算法聚合它们的值。文本中单词的正/负值的聚合产生了整个文本的语义方向。图 1 提供了这两种方法的简化表示。SerranoGuerrero 等人（出版中）还提供了情绪分析的不同方法的视觉分类。</p>
+<p><img loading="lazy" src="%e5%88%86%e7%b1%bb.png" alt="img"  />
+</p>
+<p>基于词典的方法已被证明在不改变词典的情况下跨不同领域是稳健的（Taboada 等人 2011）。此外，Brooke 等人 (2009) 表明，将词典移植到新语言或新领域并不是一项繁重的任务，而且可能比在新领域为分类器标记数据更轻松。</p>
+<p>基于词典的模型利用文本中包含的语言信息。因为它们在计算方法和语言方法之间的良好协同作用方面表现出最大的希望，所以我将在本节的其余部分重点介绍这些方法，描述哪些语言方面有助于准确提取情感。</p>
+<p>词典方法需要确定哪些词或短语是相关的（即哪些词捕捉句子或文本的评价意义）；哪些句子是相关的（即，文本的某些句子或部分是否更能代表其方向？）；以及如何聚合提取的单个单词或短语。我在下面依次讨论。</p>
+<p>2.1 Which words and phrases</p>
+<p>大多数情感分析研究都集中在形容词的评价性质上。形容词传达了文本中的大部分主观内容，并且已经付出了大量努力来提取形容词的语义方向（即正面和负面价值）。 Hatzivassiloglou &amp; McKeown (1997) 率先通过关联提取语义方向，使用协调：短语 excellent and X 预测 X 将是一个积极的形容词，在我们不知道 X 极性的情况下。Turney (2002)， Turney &amp; Littman (2002, 2003) 使用了类似的方法，但这次使用 Web 作为语料库。在他们的方法中，如果形容词 X 主要出现在其他肯定形容词的附近，而不仅仅是在一个协调的短语中，那么它就是肯定的。</p>
+<p>然而，研究人员越来越多地注意到，大量的情感是通过其他词类传达的，例如名词（masterpiece, disaster）、动词（love, hate）或副词（skilfully, poorly），以及包含这些词的短语(Benamara et al 2007, Subrahmanian &amp; Reforgiato 2008)。有趣的是 Sokolova 和 Lapalme (2008) 只使用动词，这也许是因为在某些情况下，避免了用正面和负面形容词表达的直接评价。 （作者研究了消费者评论和美国国会辩论。）
+字典往往包含正面和负面单词的列表（即极性）。许多基于词典的方法还包括有关强度的信息，即该词的正面或负面程度。例如，在 Wiebe 及其同事的主观词典中（Wiebe et al 2004，Wilson et al 2009），单词可以分为以下几类：</p>
+<p>• Positive – strong    absolve, accolade, altruistic</p>
+<p>• Positive – weak       accept, abundance , affluent</p>
+<p>• Neutral                     accentuate, alliance, alert</p>
+<p>• Negative – weak      abolish, addiction, alienated</p>
+<p>• Negative – strong    abuse, abomination, afraid</p>
+<p>其他词典具有更细粒度的尺度。我们系统中的字典，语义方向计算器 (SO-CAL) 有一个 10 分制，从 -5 到 +5，这已被证明与人类主体的判断一致 (Taboada et al 2011)。表 1 中提供了一个样本列表及其在不同词典中的值。主观性词典指的是 Wiebe 及其同事的词典，上面的词就是从中提取的。</p>
+<p>SO-CAL 是 Taboada et al (2011) 的词典，而 SentiWordNet (Baccianella et al 2010) 是从 WordNet 中提取的一组词，添加了正负值和客观值。 SentiWordNet 确实具有与这些词相关的强度，但需要针对同一个词跨不同的意义和词性进行计算。为简单起见，我们在这里简单地指出了极性。最后，Macquarie 词典是一个庞大的单词集合，通过遍历 Roget 的同义词库（Mohammad 等人 2009），用语义方向注释。</p>
+<p><img loading="lazy" src="%e7%ad%89%e7%ba%a7.png" alt="img"  />
+</p>
+<p>一个重要的问题，无论所考虑的词性如何，都是情感词典的覆盖范围。很难估计一种语言的评价词典有多大。英语词典（绝大多数研究的对象；见下文第 4 节）范围从 SO-CAL（Taboada 等人 2011 年）的大约 5,000 个单词或 Wilson 等人（2009 年）提出的 8,000 个主观线索到38,000 个 SentiWordNet（Baccianella 等人，2010 年）或近 76,000 个 Macquarie Semantic Orientation Lexicon（Mohammad 等人，2009 年）。目前尚不清楚最佳大小是多少，或者一种语言是否可能包含数十万个评价术语。</p>
+<p>我们的研究小组发现，大词典往往会捕获更多噪音，从而导致自动提取情感的结果不准确（Taboada 等人，2011 年）。</p>
+<p>仔细检查情绪词典，以及（特别是）在线表达的意见，发现正面词的出现频率相对高于负面词。这种现象被描述为Pollyanna Principle的一种形式（Boucher &amp; Osgood 1969），其中积极的词在标记和类型方面都有更高的频率，因为我们倾向于积极地记住过去的事件。一些指标表明，确实有大量在线评论是正面的。 TripAdvisor 自己的分析表明，酒店和目的地的评论大多是正面的（平均 4.08 分，满分 5 分）</p>
+<p>对应的是Negativity Bias，它假设消极事件对我们的心理状态和行为有更强的影响 (Rozin &amp; Royzman 2001)。如果存在负面偏见，则可以解释负面术语的频率较低，因为它们的影响更强。 Jing-Schmidt (2007) 认为，由于委婉语和政治正确性，我们使用的消极术语少于积极术语。否定项也可能只是被否定的肯定项。如果只计算评价词，而不考虑否定词（见下一节），那么自然好和不好都会被算作正面。</p>
+<p>总的说，关于情感分析的任务，决定将哪些词包含在字典中的过程的一个重要部分与如何相对于彼此权衡它们有关。如果负面词的存在更能表明负面评论，那么负面词可能在最终聚合中具有更大的权重。</p>
+<p>2.2 Intensification and downtoning; irrealis and nonveridicality</p>
+<p>​      强化和降调；非现实性和非真实性</p>
+<p>无论选择何种词类来传达情感，都可以通过修改来强化和淡化它们。一般术语增强器用于改变单个单词强度的设备，无论是通过提高还是降低。这些也被描述为价移器 (Zaenen &amp; Polanyi 2004)，以及放大器与降调器 (Quirk et al 1985)。将修饰语（无论是增强剂还是降调剂）考虑在内一直被证明可以提高情绪分析系统的性能（Carrillo de Albornoz &amp; Plaza 2013、Kennedy &amp; Inkpen 2006、Morsy &amp; Rafea 2012、Taboada 等人 2011）。</p>
+<p>已经使用简单的加法和减法计算了强化的影响（Kennedy &amp; Inkpen 2006，Polanyi &amp; Zaenen 2006）。例如，如果一个正面形容词的值为 2，则放大的（或积极强化的）形容词将变为 3，而低调的形容词将变为 1。然而，强化词并非都在同一水平上强化。考虑extraordinary 和rather 之间的区别。另一个考虑因素是被强化的词的价值也发挥了作用。量表较高端的词可能会更加强烈，这可以从真正美妙和真正好之间的区别中看出。事实上，后者可能经常被讽刺使用。模拟这些差异的一种方法是使用乘法而不是加法/减法，即，将增强器置于百分比范围内。 Taboada 等人 (2011) 提出了以下价值观：</p>
+<p>• most  +100%</p>
+<p>• really +15%</p>
+<p>• very   +15%</p>
+<p>• somewhat -30%</p>
+<p>• arguably -20%</p>
+<p>Polanyi 和 Zaenen (2004) 还包括其他元素作为价移，例如预设项（even，barely）。 Consider It is barely sufficient，它建立了一个假设，即尽管足够是适度积极的，但在这种情况下并非如此，因为预期会出现更好的情况。</p>
+<p>在降调的背景下，通常会讨论许多现象，这些现象表明单个单词和短语对于情感分析的目的可能不可靠。 Irrealis 通常指的是表明话语中提到的事件不是事实的表达。</p>
+<p>非真实性更广泛，包括所有非真实的上下文，即不基于真理或存在的上下文（Giannakidou 1995，Zwarts 1995）。在之前的工作中，我们将非真实运算符定义为包括否定（见下一节）、情态动词、内涵动词（相信、思考、想要、建议）、祈使句、疑问句、条件句的性质、习惯句和虚拟语气，在具有虚拟语气表达的语言 (Trnavac &amp; Taboada 2012)。考虑 (1) 中的意向动词 thought 和情态 would 以及 (2) 中的情态加疑问句的效果，这完全否定了 suitable 或 more suitable 中可能存在的任何正面评价。</p>
+<p>(1) I thought this movie would be as good as the Grinch.</p>
+<p>(2) Couldn&rsquo;t you find a more suitable ending?</p>
+<p>情感分析中的普遍共识是，非真实性和不真实性会导致包含它的句子中任何情感表达的不可靠性（Benamara 等人 2012 年，Denis 等人 2014 年，Morante 和 Sporleder 2012 年，Taboada 等人 2011 年，Wilson 等人 2009 年), 但没有足够的研究来探索评估是如何受到影响的。
+生物医学文本处理领域的一个相关研究领域是推测和否定的作用。在生物医学文本处理中，目标是从研究文献中提取事实信息。在这种情况下，建立了与情绪研究的联系，因为将事实信息与观点或推测区分开来非常重要。这一领域的大量研究都集中在检测推测和否定上，其中一些是在 BioScope 语料库的帮助下进行的。 BioScope 语料库 (Vincze et al 2008) 是摘要、论文和临床报告的集合，并用表示否定和推测的线索以及这些线索的范围进行了注释。</p>
+<p>例如，动词暗示并指示引入一个发现信号，表明该发现并不完全可靠。在该领域中确定的猜测线索与上面讨论的非真实性运算符部分重叠。线索的例子有：形容词和副词（probable, likely, possible）；情态动词（may, might, could）；推测动词（suggest, suspect, suppose, seem）；和一系列多词提示（no evidence/proof that, raise the possibility/question, whether or not）（Farkas 等人 2010）。该领域的工作越来越多地利用完整句子解析或依赖解析来识别线索的范围（Velldall 等人 2012）。</p>
+<p>2.3 Negation</p>
+<p>与正面和负面术语之间的频率不对称一样，事实证明否定通常显示出有趣的不对称性，对情绪分析具有重要影响。
+否定检测通常涉及查找否定词或否定指示，例如负极性项（出现否定时出现的词，如any or at all）。然而，最重要的任务是准确地捕捉否定的范围，因为重要的是只否定被否定影响的评价项目。
+除了通常的否定词 not 外，还应考虑其他否定词，如 no、none、nobody、nothing 和 never。其他可能产生负面影响的词是 without、almost 和 lack（既作为名词又作为动词）。在 Saurí (2008) 和 Blanco 和 Moldovan (2013) 中可以找到否定及其范围的描述，以及如何通过计算识别否定。
+语言学家熟知的否定方面是句法否定与词法否定（3a 与 3b）、否定提升（3c）、否定范围和仅对一个论点的部分否定（3d 和 3e）。除非另有说明，否则示例均取自 SFU Review Corpus (Taboada 2008)。</p>
+<p>(3) a. Mike Myers recycled his entire CV of SNL characters to create a Cat in the Hat that is unworthy of his name.</p>
+<p>b. Mike Myers recycled his entire CV of SNL characters to create a Cat in the Hat that is not worthy of his name.</p>
+<p>17 c. Our Sony phones died after 7 years… which I don’t think it’s too bad for a cordless phone.</p>
+<p>d. I had stayed at Westin hotels before, and was never disappointed until now.</p>
+<p>e. Propaganda doesn&rsquo;t succeed because it is manipulative, it works because people WANT it, NEED it, it gives their life a direction and meaning and guards against change. (Anonymous 2013)</p>
+<p>假设否定及其范围已被充分识别，下一个问题是确定否定如何影响情感词的字典值。一个直接的策略是在否定项的范围内反转词汇项的极性。例如，在字典单词同时具有极性和强度的系统中，good 可能具有 +3 的值，而在否定的情况下，not good 可能变为 -3。这种方法通常称为转换否定 (Saurí 2008)。</p>
+<p>然而，转换否定并不能很好地捕捉否定的微妙之处（Benamara 等人 2012 年，Liu 和 Seneff 2009 年）。用高度肯定的话说，否定似乎意味着降调，而不是逆转。例如，假设 excellent 可能是 +5 形容词，not excellent hardly seems would be worth to a -5，相反的极端。事实上，它似乎比我们的 -3 不好的例子更积极。似乎很难否定一个非常积极的词而不暗示一个不太积极的词在某种程度上是可能的（不是很好，但也不可怕）。一种可能的解决方案是使用移位否定，这种方法中否定符的作用是将量表中的否定项移动一定量，但不会使其与原始项相反。在我的小组实施的 SO-CAL 中，移位否定将极性移动了四个点，导致了示例 4 中所示的变化。</p>
+<p>(4) a. excellent (+5) → not excellent (+1)</p>
+<p>b. terrific (+5) → not terrific (+1)</p>
+<p>c. sleazy (-3) → not sleazy (+1)</p>
+<p>d. horrid (-5) → not horrid (-1)</p>
+<p>Litotes 提出了一个特别有趣的挑战。该现象涉及通过否定负面项目（not bad）或相反，使用否定的正面来表达负面评价（not my best day)）来传达轻微的正面。效果似乎是淡化评价的整体效果之一，无论是正面的还是负面的。</p>
+<p>否定的一个值得讨论的方面是它的显着性。消极的陈述往往被认为比肯定的陈述更明显，无论是在实用上还是心理上都是如此（Horn 1989，Osgood &amp; Richards 1973）。否定形式根据其跨语言的语言形式进行标记（Greenberg 1966），并且正如我们之前提到的，它们不太常见。情绪分析研究发现，准确识别负面情绪更加困难，这可能是因为我们使用的负面术语较少，而且负面评价是用正面术语表达的（Pang &amp; Lee 2008，第 3 章）。从某种意义上说，解决这个问题的一种方法是遵循负面偏见：如果出现负面词，那么它就会产生更大的影响。这是通过在聚合中权衡负面词而不是正面词来实现的（Taboada 等人 2011）。</p>
+<p>另一种形式的否定对情感分析提出了特别困难的挑战：讽刺。到目前为止，还没有关于如何处理（口头）反讽的成功建议，在大多数情况下，反讽涉及陈述与原意相反的内容，并且可以理解为一种狭义的讽刺形式（更一般地说，是尖锐和攻击性的）评论）。</p>
+<p>传达讽刺意味的意图并不经常公开表达。已经尝试使用表情符号，其中表情符号带有可以被解释为与先前陈述相反的极性（Carvalho 等人 2009 年，Tsur 等人 2010 年）。其他表面指示符是首字母缩略词或拟声表达，表示笑声（LOL，嘿嘿），大量使用感叹号或引号。然而，反讽所利用的资源比仅仅几个表面指标要丰富得多，有时甚至很难被人类发现 (Utsumi 2000)。事实上，以下示例以及 Tsur 等人 (2010) 的所有评论标题，如果没有一些上下文知识，最重要的是，如果没有世界知识（例如，提到一本书的封面作为主要正面的事实），将很难解释这本书的特点意味着对本书内容的负面评价）。
+(5) a. Love the cover (book)</p>
+<p>b. Where am I? (GPS device)</p>
+<p>c. Trees died for this book? (book)</p>
+<p>d. Be sure to save your purchase receipt (smart phone)</p>
+<p>e. Great for insomniacs (book)</p>
+<p>f. Defective by design (music player)
+语料库语言学的经典著作表明，某些模式可用于检测反讽。 Louw (1993) 表明，他称之为语义韵律的冲突表明具有讽刺意味。通过语义韵律，他指的是一个词所包含的积极或消极的含义，而不仅仅是这里描述的极性。例如，动词 set in 乍一看是一个中性词。然而，在检查语料库时，可以确定它只与负面事件搭配，即只有不好的事情出现。</p>
+<p>同样，一个人总是执着于追求负面的行为。他用这个概念来表明完全也带有消极的韵律，因为它只加强消极的词。当它伴随着一个积极的词时，它被反讽地使用。 Louw 在讨论小说《小世界》中的大卫·洛奇 (David Lodge) 如何将参加会议的学者描述为致力于自我提升时，展示了同样的原则。
+然而，尽管有一些语言学见解，但目前大多数关于讽刺和讽刺检测的工作仅限于使用已经存在的地方的特征来检测它。例如，一种常见的方法是收集带有#sarcasm 标签的推文，然后使用这些作为标记实例来学习将它们与非讽刺评论区分开来的特征 (Bamman &amp; Smith 2015)。将机器学习和分类技术应用于此问题的优势在于，它通常有助于揭示分析师不容易访问的文本特征。</p>
+<p>经常使用的特征包括某些单词和表达的存在（dare、clearly、lol、how dare、I&rsquo;m shocked）、词汇密度、大写和表情符号以及增强词。 Bamman 和 Smith（2015 年）发现，虽然推文特征很有用，但作者、观众和推文特征的组合最能检测反讽。 Bamman 和 Smith 建议当作者和收件人实际上并不认识并且之前没有互动时使用讽刺标签。这意味着当作者认为他们会因为缺乏上下文而被误解时，他们不得不添加标签。朋友或同龄人之间可能存在表现出不同特征的讽刺实例，因此不会被这种方法产生的分类器检测到。</p>
+<p>当话语关系隐含或明确地被连词或连接词标记时，在检测话语关系时也提出了类似的论点 (Sporleder &amp; Lascarides 2008)。使用通常通过连词显式标记为训练示例（删除连词）的关系来检测典型的隐式示例会导致性能不佳，这可能是因为显式关系与隐式关系不共享许多特征。</p>
+<p>所有检测单词和短语的工作，以及价变换器的影响，都基于组合性原则。研究人员理所当然地认为，一份文件、一句话或一条推文的情感是其各部分的总和。有些部分比其他部分贡献更多，有些会减少或抵消情绪，但通常假设可以将组件相加、相减或相乘以产生可靠的结果。从讽刺的例子中可以很容易看出，这种假设并不总是正确的。</p>
+<p>根据 Wilson、Wiebe 和 Hoffmann 所描述的先验极性（Wilson et al 2005，Wilson et al 2009），单词在上下文中具有新的含义是无法预测的。 Haas 和 Versley（2015 年）指出，看似中性的形容词在与电影的某些方面（精心制作的延续、扩大的视野）结合时可能会变得极端，就像被强化的词一样（简单的侵入性被认为是消极的，但侵入性是中性的）。</p>
+<p>2.4 Sentence and clause patterns</p>
+<p>评价和主观性不仅通过单个词和短语来表达，而且常常通过整个句子和句子中的特定模式来表达。基于模式的语言描述在这里特别相关，因为它们避免了词汇和语法之间的区别，而是将它们视为同一描述对象的一部分 (Hunston &amp; Francis 2000)。</p>
+<p>主观性跨越两者，有时由单个词传达，有时由短语传达，有时由整个语法结构传达。 Hunston 和 Francis 将一个词的模式定义为“所有与该词有规律地关联并有助于其意义的词和结构”。 （2000 年：37）。在这里，我还包括对语法结构的更一般的描述，例如倒装。</p>
+<p>Hunston (2011) 对模式和评估进行了最深入的描述，其中明确说明某些模式有助于评估意义，并区分执行评估功能的模式，即“执行”模式，根据到 Hunston (2011: 139)，以及报告评估的模式。表演模式的例子是“它”和“那里”模式，如 It is amazing that&hellip;;有一些令人钦佩的事情&hellip;&hellip; Hunston 还讨论了伴随评估的短语，例如（is）humanly possible；到点;或接壤。</p>
+<p>许多其他研究人员已经注意到某些模式表达主观性的潜力。 Andersen 和 Fretheim (2000) 讨论了 I think (that)&hellip; 模式，其特征是矩阵子句中的动词，例如 think、hope、understand、wonder 和补语子句。他们讨论了结构如何传达主语对补语从句的态度。虽然主语通常是第一人称，但有些动词允许第三人称主语（She thought that the lock had been changed, but not She take it that the lock had been changed）。</p>
+<p>Thompson (2002) 讨论了将诸如 think 之类的介绍性动词视为认知立场或证据性标记的必要性，并重新考虑从句作为“宾语补语”的地位。 Verhagen（2005）认为补语从句不是“宾语”，而是复句的要点，所谓矩阵从句（我认为……）指导受话人如何理解补语。</p>
+<p>Scheibman (2002) 在对美国英语会话的研究中，讨论了某些句法结构的主观内容，例如关系从句（她的语料库中最常出现的话语类型）。其中的谓词通常是形容词（表达对主语的评价）和谓语名词（表达主语和谓语之间可根据主观标准识别的关系）。</p>
+<p>Scheibman (2002: 157) 认为，关系结构中的形容词和谓词名词都在主观上起作用，“在某种意义上，这些话语所传达的关系取决于说话者的观点。”用于表达观点的其他特征有：第一人称单数代词 (I)、现在时、情态、认知动词、强化词和情态副词。</p>
+<p>词序通常在传达立场方面发挥作用。 Stein (1995) 讨论了它在用英语表达主观意义时的作用。根据 Stein 的说法，（6）到（8）中的例子代表了情绪表达的倾向，第一个是最主观的（Stein 1995：132）。</p>
+<p>(6) Bitterly did they repent their decision.</p>
+<p>(7) Bitterly they repented their decision.</p>
+<p>(8) They repented their decision bitterly.</p>
+<p>Wiebe 及其同事投入了大量精力来寻找句子中主观性的指标（例如，Wiebe &amp; Riloff 2005、Wiebe 等人 2004、Wilson 等人 2006）。他们提出了一组关于主观性的线索，其中一些是词汇上的，一些是句法上的。词汇线索中有心理动词和判断动词（dread, love, commend, reprove）；通常涉及体验者的动词和形容词（fuss, worry, pleased, upset, embarrass, dislike）；以及之前被注释为极性的形容词（Hatzivassiloglou &amp; McKeown 1997）。句法线索是从手动注释的数据中学习的（Riloff 等人 2003 年，Wiebe 等人 2003 年）。</p>
+<p>2.5 Relevant sentences</p>
+<p>很明显，并非文本的所有部分都对其中表达的可能的总体意见有同等的贡献。电影评论可能包含与同一导演或同一演员的其他电影相关的部分。这些部分与作者对正在讨论的电影的看法没有或几乎没有关系。更糟糕的情况是作者讨论了一个完全不相关的话题（比如他们在看电影前去过的餐馆）。一般来说，这是一个主题检测问题，已经提出了解决方案（例如，Yang 1999 的统计方法）。</p>
+<p>一个稍微不同的问题是包含大部分相关信息的文本，但其中一些信息比其他信息更相关。不太相关的方面包括电影或书籍情节的背景，或关于产品任何方面的额外事实信息。这个问题与区分意见与事实，或主观与客观信息有关。 Janyce Wiebe 及其同事用观点的表达注释了语料库 (Wiebe et al 2005)，并开发了分类器来区分客观句子和主观句子 (Wiebe &amp; Riloff 2005)。衡量文本的另一种方法是确定哪些部分包含评估，哪些主要是描述。</p>
+<p>特别是在评论中，可能存在与评估无关的产品或上下文描述。例如，电影可能会描述情节，以及演员之前的角色。 Taboada 等人（2009）提出了一种自动将文本中的段落分类为描述或评价的方法，并表明它提高了情感分析的准确性。</p>
+<p>最后，相关性的另一个方面与总结或捕捉总体观点的文本部分有关。因此，在包含与电影相关的意见的部分中，一些可能比其他的更有用。有人指出，文本不同部分的形容词（如果这些是主要使用的词）可能具有不同的权重（Pang 等人 2002 年，Taboada 和 Grieve 2004 年）。</p>
+<p>Taboada 和 Grieve (2004) 通过更重地权衡出现在文本末尾的词来提高语义方向计算器的性能。这与约翰·辛克莱 (John Sinclair) 的亨斯顿和汤普森 (Hunston and Thompson, 2000: 11) 的观察相一致，即“评价，无论是在写作中还是在演讲中，往往发生在话语的边界点”。</p>
+<p>2.6 Discourse patterns</p>
+<p>一旦我们从文本中提取了单词和短语，无论是否对句子使用剪枝方法，下一步就是聚合这些单个单词的语义方向或评价值。为此目的最常用的方法是对文本中找到的单词的 SO 进行平均 (Turney 2002)。包含十个正面词和两个负面词的文本将被标记为正面。在许多情况下，语篇结构在论证的构建中起着重要作用，这显然是失败的。考虑以下示例，电影《最后的武士》的评论的一部分。正面的词用粗体表示，负面的评价用下划线标出（目前，我们主要考虑的是词，而不是它们更广泛的上下文，例如情态动词和完成体）。</p>
+<p>(9) It could have been a <strong>great</strong> movie. It could have been <strong>excellent</strong>, and to all the people who have forgotten about the older, <strong>greater</strong> movies before it, will think that as well. It does have beautiful scenery, some of the <strong>best</strong> since Lord of the Rings. The acting is <strong>well done</strong>, and I <strong>really liked</strong> the son of the leader of the Samurai. He was a <strong>likeable</strong> chap, and I <u>hated</u> to see him die. But, other than all that, this movie is nothing more than <u>hidden rip-offs</u>.</p>
+<p>这显然是一个负面评价，但它是以一种我们称之为白话论证的写作风格呈现的（Taboada &amp; Gómez-González 2012），在最后的致命缺陷之前呈现了一系列积极的方面，这总结意见。这些例子为考虑语篇结构提供了一个令人信服的理由，特别是语篇、连贯性或修辞关系（Mann &amp; Thompson 1988）。句子内和句子之间的这种关系可能会改变情感词的极性。</p>
+<p>让步和条件的关系是在各种话语理论下提出的解释话语结构的一些关系。例如，条件关系将限制正面评价的范围。在示例 (10) 中，有趣的正面评价受到读者必须能够改变他们对作者的典型风格和以前书籍的期望的条件的影响。</p>
+<p>(10) It is an interesting book if you can look at it with out expecting the Grisham “law and order” style.</p>
+<p>在下面的 (11) 中，一个让步关系，用 while 标记。从句的极性可能是负面的（一本书是不同的，特别是对于多产的作者来说，往往会引起忠实读者的焦虑）。主句的极性明显是正面的（disappoint + not)）。这种关系在从句和主句的组合中带来的变化是第一句中潜在否定的逆转之一。</p>
+<p>(11) While this book is totally different than any other book he has written to date, it did not disappoint me at all.</p>
+<p>连贯关系以有趣的方式与否定相互作用。 Verhagen (2005) 指出了让步关系和因果关系之间的负-正关系，如 (12) 中，其中对 (12a) 中因果关系的否定导致 (12b) 中的让步解读。</p>
+<p>(12) a. John is the best candidate because he happens to have a Ph.D.</p>
+<p>b. John is not the best candidate because he happens to have a Ph.D.</p>
+<p>这个例子有趣的方面是 (12b) 中的否定并不一定意味着否定 best 传达的积极评价。这更像是对因果关系的否定，即约翰仍然是最佳人选，但原因不是他有博士学位。 Blanco 和 Moldovan (2013) 将这种现象称为部分否定。</p>
+<p>到目前为止，在情感分析中使用连贯关系主要是一个提议，因为自动解析文本语篇结构的方法仍在开发中，尽管在过去几年取得了重大进展 (Feng 2015, Feng &amp; Hirst 2014) , Hernault 等人 2010 年，Joty 等人 2015 年）。一个相关的研究方向一直在研究极性词在语篇关系的语境中是如何变化的（Benamara et al 2013, Chardon et al 2013, Trnavac &amp; Taboada 2012）。</p>
+<ol start="3">
+<li><strong>情感分析中有趣项目的一小部分样本</strong></li>
+</ol>
+<p>本次调查的目标不是全面并包括迄今为止情绪分析的所有示例。在学术界和研究环境以及商业应用中，实在是太多了。在这里，我将只选择一些特别有趣的，因为它们的方法或因为所研究的主题或文本类型。</p>
+<p>首先，关于文本类型，除了经过充分研究的在线评论之外，许多其他类型的文本也在根据其情感内容进行分析。政治当然是另一个值得考虑的成熟领域，早期的工作集中在辩论、博客和在线讨论上（Durant &amp; Smith 2006，Mullen &amp; Malouf 2006，Thomas 等人 2006）。 Tumasjan 等人 (2010) 利用有关政党的推文的潜力来确定推文与政党声明的价值观的一致性程度。最有趣的是他们发现消息量可能是选举结果的一个很好的指标，尽管这被批评为数据收集的人为因素（Jungherr 等人，2012 年）。</p>
+<p>这一领域正在产生新的工作，目前的方法不仅利用文本，还利用作者的特征及其在线互动（Qiu 等人，2015 年）。许多关于政治话语的工作都使用 Twitter 和在线媒体作为来源。与其他形式的社交媒体一样，研究人员发现讽刺会带来一个特别困难的问题（Bakliwal 等人，2013 年）。</p>
+<p>许多其他文本包含评估，有时是个人的和敏感的，但仍然值得分析。 Stewart (2015) 最近进行的一项有趣研究从定量的角度分析了学生在课程评估中的书面评论，并使用评估框架 (Martin &amp; White 2005)。我不知道有任何大规模的自动分析学生评价。</p>
+<p>如果可以解决保密问题，这个领域可以带来有趣的应用。 Pestian 等人 (2012) 在一项共同任务中提供的遗书具有更敏感的性质。这种分析的一个重要结果是确定那些试图自杀的人中哪些人可能会再次尝试。这是一个恰当的情绪识别任务，而不是简单的极性。被注释的情绪，因为它们被认为是很好的预测指标，其中包括：虐待、愤怒、悲伤、宽恕、爱、骄傲，以及对他人的指示。</p>
+<p>Bobicev 等人（出版中）研究在线医学论坛中表达的感受。他们用五种感觉来注释关于个人健康（体外受精经验）的讨论语料库，他们称之为情绪：鼓励、感激、困惑、事实和认可。他们使用语料库作为训练数据构建了一个分类器来自动识别这些情绪，表明可以可靠地识别情绪。这是一个特别有趣的问题，因为通常将消息分为正面和负面极性的分类不会为其目的提供足够细粒度的信息，其中包括从医疗政策讨论中提取情绪。</p>
+<p>顺便说一句，其中一些项目研究的是情感而不是情绪（极性）。对一般情绪及其自动识别的研究可能值得进行另一项调查。在本文中，我只是指出了与情绪分析重叠的领域。</p>
+<p>绝大多数关于情感的研究都是针对文本进行的（与情感研究不同，在情感研究中，语音通常根据韵律、音高和语调进行分析）。然而，在从图像中检测情绪方面正在进行一些工作。 Borth 等人 (2013) 和 Wang 等人 (2015) 都结合使用在线发布的图像特征和关于图像的文本（评论和标签）来识别图像传达的情感。</p>
+<p>一个相关的兴趣领域是检测垃圾评论或虚假评论。评论的流行以及它们在购买决策中的重要性导致人们试图改变评级。公司有时会付钱给作家，让他们对竞争对手的业务发表大量正面评论或负面评论。这种做法导致了法庭诉讼和和解，公司被判为支付正面评价或自行撰写评价而被判有罪（Streitfeld 2013）。 TripAdvisor 最近因未能阻止其网站上的虚假评论而被罚款 500,000 欧元（Scott 2013）。</p>
+<p>虚假评论检测采用了许多被证明对任务非常有用的特征，但在语言上并不那么有趣，例如用户 ID、用户活动、URL 和时间模式（Li et al 2014）。然而，一些研究依赖于作者归属中采用的相同原则：通过词性分布的体裁识别、语言模式的相似性和文本的风格特征 (Feng et al 2012, Ott et al 2011)。这允许系统确定是否在不同的网站上发布了相同的评论，以及是否重复使用了某些股票短语。 Bing Liu 一直是该领域的领导者，并在他的调查中包括了关于如何检测虚假评论的一章 (Liu 2012)。</p>
+<ol start="4">
+<li><strong>英语以外语言的情感分析</strong>
+毫无疑问，英语是情感分析的主要研究对象。然而，英语并不是在线表达意见的唯一语言。相应地，有努力识别其他语言的情绪。方法各不相同。一个明显的途径是为所讨论的语言本地开发基于词典的方法或机器学习方法。在基于字典的方法中，这涉及创建语言中极性词的字典，以及识别否定和强化等现象的适当规则。在监督学习方法中，所需的主要组成部分是一组带标签的示例（文本、句子等）。
+另一个主要途径，如果“从头开始”的开发不可取或不可行，则涉及翻译。可以翻译其他语言的文本，然后使用基于英语的情感分析系统。或者可以拿英语词典并将其翻译成目标语言，但这还涉及调整所使用的任何规则。
+在情感分析方面正在研究的语言包括阿拉伯语 (El-Beltagy &amp; Ali 2013, Salameh et al 2015)、中文 (Huang et al 2012, Wan 2008, Wang et al 2012, Ziyan et al in press), 法语 (Benamara et al al 2013, Ghorbel 2012, Marchand 2012), 德语 (Clematide &amp; Klenner 2010, Haas &amp; Versley 2015, Waltinger 2010), 西班牙语 (López et al 2012, MolinaGonzález et al 2013, Moreno-Ortiz &amp; Pérez Hernández 2012, Vilares et al 2013 , Vilares 等人，2015 年）。在某些情况下，重点是不同语言的组合（Banea 等人 2014 年、Banea 等人 2008 年、Mihalcea 等人 2007 年、Popat 等人 2013 年）。</li>
+<li>未来研究
+有关情绪分析的文献似乎以惊人的速度增加，而且通常很难跟上该领域的新发展。目前有许多令人兴奋和有趣的项目正在积极开发中。还有很多小的贡献，有时是累积的，有时是派生的。为了这个领域的繁荣，我认为需要认真考虑语言洞察力，并且必须建立衡量进展的原则性方法。最终，真正的考验是自动分类有多大用处。这是谷歌翻译提供的一种测试。如果可以使用通过谷歌服务获得的翻译，那么它们就足够了。另一方面，如果翻译或情感分类优于某些基线，但对某些实际目的无用，那么我们需要重新考虑该领域的发展方向。情绪分析的应用之一是将市场和股票的情绪与股价相匹配（Feldman 2013）。这里真正的考验是人们是否愿意打赌情绪与股价的相关性是准确的。
+与许多其他计算应用程序一样，正在开发的系统是内部开发的，不向公众开放。但是，如果您想自己测试情绪分析怎么办？ Serrano-Guerrero 等人（出版中）列出了 15 种不同的 Web 服务，这些服务允许文本输入和输出各种类型的情感信息。斯坦福深度学习模型（Socher 等人，2013 年）允许自由文本输入，以及用户输入系统已经提供的值。</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>使用Python研究比尔克林顿政治演讲中的连接词</title>
       <link>https://hidadeng.github.io/post/2023-03-16-study-of-linking-words-in-political-speeches-of-bill-clinton-using-python/</link>
