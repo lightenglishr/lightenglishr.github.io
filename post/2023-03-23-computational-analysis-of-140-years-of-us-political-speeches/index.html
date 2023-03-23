@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码) | LightEnglishr</title>
-<meta name="keywords" content="语料库, corpus, text mining, text analysis, language positivity bias, sentiment analysis, 情感分析, 英美文学, 英语" />
-<meta name="description" content="利用国会记录和其他政治演讲来源，使用定量文本分析方法系统地调查过去 140 年国会和总统关于移民的演讲中使用的语言。">
-<meta name="author" content="Tiffany">
-<link rel="canonical" href="/post/2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors/" />
+<title>Computational analysis of 140 years of US political speeches | LightEnglishr</title>
+<meta name="keywords" content="语言学, 文本分析" />
+<meta name="description" content="移民是美国公共生活中最重要和最具争议的话题之一,对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架。">
+<meta name="author" content="R package build">
+<link rel="canonical" href="/post/2023-03-23-computational-analysis-of-140-years-of-us-political-speeches/" />
 <meta name="baidu-site-verification" content="" />
 <meta name="360-site-verification" content="" />
 <meta name="sogou-site-verification" content="" />
@@ -59,18 +59,18 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码)" />
-<meta property="og:description" content="利用国会记录和其他政治演讲来源，使用定量文本分析方法系统地调查过去 140 年国会和总统关于移民的演讲中使用的语言。" />
+</noscript><meta property="og:title" content="Computational analysis of 140 years of US political speeches" />
+<meta property="og:description" content="移民是美国公共生活中最重要和最具争议的话题之一,对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors/" />
-<meta property="og:image" content="/images/blog/yearly_american_speech_visulization.png" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2023-03-15T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2023-03-15T00:00:00&#43;00:00" />
+<meta property="og:url" content="/post/2023-03-23-computational-analysis-of-140-years-of-us-political-speeches/" />
+<meta property="og:image" content="/images/blog/immigrant.jpeg" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-03-23T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2023-03-23T00:00:00&#43;00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="/images/blog/yearly_american_speech_visulization.png" />
-<meta name="twitter:title" content="PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码)"/>
-<meta name="twitter:description" content="利用国会记录和其他政治演讲来源，使用定量文本分析方法系统地调查过去 140 年国会和总统关于移民的演讲中使用的语言。"/>
+<meta name="twitter:image" content="/images/blog/immigrant.jpeg" />
+<meta name="twitter:title" content="Computational analysis of 140 years of US political speeches"/>
+<meta name="twitter:description" content="移民是美国公共生活中最重要和最具争议的话题之一,对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架。"/>
 
 
 <script type="application/ld+json">
@@ -87,8 +87,8 @@
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码)",
-      "item": "/post/2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors/"
+      "name": "Computational analysis of 140 years of US political speeches",
+      "item": "/post/2023-03-23-computational-analysis-of-140-years-of-us-political-speeches/"
     }
   ]
 }
@@ -97,24 +97,24 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码)",
-  "name": "PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码)",
-  "description": "利用国会记录和其他政治演讲来源，使用定量文本分析方法系统地调查过去 140 年国会和总统关于移民的演讲中使用的语言。",
+  "headline": "Computational analysis of 140 years of US political speeches",
+  "name": "Computational analysis of 140 years of US political speeches",
+  "description": "移民是美国公共生活中最重要和最具争议的话题之一,对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架。",
   "keywords": [
-    "语料库", "corpus", "text mining", "text analysis", "language positivity bias", "sentiment analysis", "情感分析", "英美文学", "英语"
+    "语言学", "文本分析"
   ],
-  "articleBody": "分享一篇论文：对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架。\n该论文发表在PNAS：\nIliev, R., Hoover, J., Dehghani, M. and Axelrod, R., 2016. Linguistic positivity in historical texts reflects dynamic environmental and psychological factors. Proceedings of the National Academy of Sciences, 113(49), pp.E7871-E7879.\n下载资料 下载代码\n下载数据\n[论文脑图pdf](对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架.pdf)\n一、研究背景 作者指出：移民是美国公共生活中最重要和最具争议的话题之一。从近年来直言不讳的反移民政治家的崛起来看，很容易得出这样的结论：对移民的态度比以往任何时候都更加消极——或者至少更加两极分化。我们试图超越个人轶事来追问，在过去的一个世纪里，美国对移民的态度发生了怎样的变化？最近关于移民的政治辩论与美国历史的漫长历程相比如何？这个问题是一个挑战，因为询问对移民的态度的民意调查只是在 1960 年代才开始，然后直到最近几年才零星地询问移民。我们转向国会记录和其他政治演讲来源，使用定量文本分析方法系统地调查过去 140 年国会和总统关于移民的演讲中使用的语言。\n二、数据来源 对于第 43 届到第 111 届国会，我们使用了 Gentzkow 等人的国会记录的数字化副本。 对于第 112 届至第 116 届国会，我们使用@unitedstates 项目提供的“国会记录”工具从公共 HTML 文件中下载和提取国会记录的文本。 对于总统通讯，我们从美国总统项目下载了所有可用的总统文件。 对于移民统计，我们结合了美国千禧年版在线历史统计表 Ad354-443 中的数据和移民政策研究所编制的人口普查数据。 三、研究发现： 移民演讲的语气：\n1.1 在整个 19 世纪末和 20 世纪初，国会和行政部门对移民的平均情绪是负面的；\n1.2 其次，对移民的态度在二战开始前后变得更加积极，从 1940 年到约翰逊政府结束（1969 年）稳步上升。\n1.3 从 1965 年《移民和国籍法》重新开放边境大约十年后开始，党派分歧越来越大，年复一年的差异越来越大，共和党人对移民的态度总体下降；\n1.4 近年来，总统一直比国会的普通成员更支持移民，包括罗纳德里根这样的共和党人和吉米卡特这样的民主党人；\n1.5 尽管今天各方之间的语气差异比过去任何时候都大，但语气也会根据所讨论的移民群体而有很大差异。\n语言、框架和非人性化：\n2.1 为了更好地理解在移民演讲的完整语料库中暗示支持移民或反移民语气的语言，我们训练可解释的逻辑回归模型来近似我们的上下文嵌入模型的预测，并使用 Shapley 值确定特征重要性；\n2.2 为了从更一般的层面上理解各方在如何描述移民方面的修辞分歧，我们关注移民辩论的几个重要方面（即框架）。作为衡量这些框架流行程度的一种直接且透明的方式，我们针对此问题构建并共享了一系列词典。\n2.3 除了这些在文本中明确出现的框架之外，我们还测量了更多隐含的非人化隐喻。嵌入模型（识别提及和测量非人化）。\n国别差异：如上所示，提及不同国籍的移民时语气的差异可能与现代政党之间的差异一样大。\n五、论文框架 六、代码 ",
-  "wordCount" : "99",
+  "articleBody": "分享一篇论文：对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架。\n该论文发表在PNAS：\nIliev, R., Hoover, J., Dehghani, M. and Axelrod, R., 2016. Linguistic positivity in historical texts reflects dynamic environmental and psychological factors. Proceedings of the National Academy of Sciences, 113(49), pp.E7871-E7879.\n下载资料 [论文脑图pdf](对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架.pdf) 一、研究背景 作者指出：移民是美国公共生活中最重要和最具争议的话题之一。从近年来直言不讳的反移民政治家的崛起来看，很容易得出这样的结论：对移民的态度比以往任何时候都更加消极——或者至少更加两极分化。我们试图超越个人轶事来追问，在过去的一个世纪里，美国对移民的态度发生了怎样的变化？最近关于移民的政治辩论与美国历史的漫长历程相比如何？这个问题是一个挑战，因为询问对移民的态度的民意调查只是在 1960 年代才开始，然后直到最近几年才零星地询问移民。我们转向国会记录和其他政治演讲来源，使用定量文本分析方法系统地调查过去 140 年国会和总统关于移民的演讲中使用的语言。\n二、数据来源 对于第 43 届到第 111 届国会，我们使用了 Gentzkow 等人的国会记录的数字化副本。 对于第 112 届至第 116 届国会，我们使用@unitedstates 项目提供的“国会记录”工具从公共 HTML 文件中下载和提取国会记录的文本。 对于总统通讯，我们从美国总统项目下载了所有可用的总统文件。 对于移民统计，我们结合了美国千禧年版在线历史统计表 Ad354-443 中的数据和移民政策研究所编制的人口普查数据。 三、研究发现： 移民演讲的语气：\n1.1 在整个 19 世纪末和 20 世纪初，国会和行政部门对移民的平均情绪是负面的；\n1.2 其次，对移民的态度在二战开始前后变得更加积极，从 1940 年到约翰逊政府结束（1969 年）稳步上升。\n1.3 从 1965 年《移民和国籍法》重新开放边境大约十年后开始，党派分歧越来越大，年复一年的差异越来越大，共和党人对移民的态度总体下降；\n1.4 近年来，总统一直比国会的普通成员更支持移民，包括罗纳德里根这样的共和党人和吉米卡特这样的民主党人；\n1.5 尽管今天各方之间的语气差异比过去任何时候都大，但语气也会根据所讨论的移民群体而有很大差异。\n语言、框架和非人性化：\n2.1 为了更好地理解在移民演讲的完整语料库中暗示支持移民或反移民语气的语言，我们训练可解释的逻辑回归模型来近似我们的上下文嵌入模型的预测，并使用 Shapley 值确定特征重要性；\n2.2 为了从更一般的层面上理解各方在如何描述移民方面的修辞分歧，我们关注移民辩论的几个重要方面（即框架）。作为衡量这些框架流行程度的一种直接且透明的方式，我们针对此问题构建并共享了一系列词典。\n2.3 除了这些在文本中明确出现的框架之外，我们还测量了更多隐含的非人化隐喻。嵌入模型（识别提及和测量非人化）。\n国别差异：如上所示，提及不同国籍的移民时语气的差异可能与现代政党之间的差异一样大。\n五、论文框架 六、可视化结果 ",
+  "wordCount" : "97",
   "inLanguage": "en",
-  "image":"/images/blog/yearly_american_speech_visulization.png","datePublished": "2023-03-15T00:00:00Z",
-  "dateModified": "2023-03-15T00:00:00Z",
+  "image":"/images/blog/immigrant.jpeg","datePublished": "2023-03-23T00:00:00Z",
+  "dateModified": "2023-03-23T00:00:00Z",
   "author":{
     "@type": "Person",
-    "name": "Tiffany"
+    "name": "R package build"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/post/2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors/"
+    "@id": "/post/2023-03-23-computational-analysis-of-140-years-of-us-political-speeches/"
   },
   "publisher": {
     "@type": "Organization",
@@ -215,54 +215,54 @@ onload="renderMathInElement(document.body);"></script>
     
     <div class="breadcrumbs"><a href="/" target="_blank">Home</a>&nbsp;»&nbsp;<a href="/post/" target="_blank">Posts</a></div>
     <h1 class="post-title">
-      PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码)
+      Computational analysis of 140 years of US political speeches
     </h1>
-    <div class="post-meta"><span title='2023-03-15 00:00:00 +0000 UTC'>2023-03-15</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Tiffany
+    <div class="post-meta"><span title='2023-03-23 00:00:00 +0000 UTC'>2023-03-23</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;R package build
 
 </div>
   </header> 
-<figure class="entry-cover"><a href="/images/blog/yearly_american_speech_visulization.png" target="_blank"
-            rel="noopener noreferrer"><img loading="lazy" src="/images/blog/yearly_american_speech_visulization.png" alt=""></a>
+<figure class="entry-cover"><a href="/images/blog/immigrant.jpeg" target="_blank"
+            rel="noopener noreferrer"><img loading="lazy" src="/images/blog/immigrant.jpeg" alt=""></a>
         
 </figure>
 <div class="share-buttons">
-    <a target="_blank" rel="noopener noreferrer" aria-label="share PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码) on twitter"
-        href="https://twitter.com/intent/tweet/?text=PNAS%20%7c%20%e5%8e%86%e5%8f%b2%e6%96%87%e6%9c%ac%e4%b8%ad%e7%9a%84%e8%af%ad%e8%a8%80%e7%a7%af%e6%9e%81%e6%80%a7%e5%8f%8d%e6%98%a0%e4%ba%86%e5%8a%a8%e6%80%81%e7%9a%84%e7%8e%af%e5%a2%83%e5%92%8c%e5%bf%83%e7%90%86%e5%9b%a0%e7%b4%a0%28%e5%90%abPython%e4%bb%a3%e7%a0%81%29&amp;url=%2fpost%2f2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors%2f&amp;hashtags=%e5%ad%a6%e6%9c%af%e5%ba%94%e7%94%a8%2c%e8%af%ad%e8%a8%80%e5%ad%a6%2c%e6%96%87%e6%9c%ac%e5%88%86%e6%9e%90%2cPython">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Computational analysis of 140 years of US political speeches on twitter"
+        href="https://twitter.com/intent/tweet/?text=Computational%20analysis%20of%20140%20years%20of%20US%20political%20speeches&amp;url=%2fpost%2f2023-03-23-computational-analysis-of-140-years-of-us-political-speeches%2f&amp;hashtags=%e8%8b%b1%e8%af%ad%2c%e6%8a%80%e5%b7%a7">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
         </svg>
     </a>
-    <a target="_blank" rel="noopener noreferrer" aria-label="share PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码) on linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2f2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors%2f&amp;title=PNAS%20%7c%20%e5%8e%86%e5%8f%b2%e6%96%87%e6%9c%ac%e4%b8%ad%e7%9a%84%e8%af%ad%e8%a8%80%e7%a7%af%e6%9e%81%e6%80%a7%e5%8f%8d%e6%98%a0%e4%ba%86%e5%8a%a8%e6%80%81%e7%9a%84%e7%8e%af%e5%a2%83%e5%92%8c%e5%bf%83%e7%90%86%e5%9b%a0%e7%b4%a0%28%e5%90%abPython%e4%bb%a3%e7%a0%81%29&amp;summary=PNAS%20%7c%20%e5%8e%86%e5%8f%b2%e6%96%87%e6%9c%ac%e4%b8%ad%e7%9a%84%e8%af%ad%e8%a8%80%e7%a7%af%e6%9e%81%e6%80%a7%e5%8f%8d%e6%98%a0%e4%ba%86%e5%8a%a8%e6%80%81%e7%9a%84%e7%8e%af%e5%a2%83%e5%92%8c%e5%bf%83%e7%90%86%e5%9b%a0%e7%b4%a0%28%e5%90%abPython%e4%bb%a3%e7%a0%81%29&amp;source=%2fpost%2f2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors%2f">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Computational analysis of 140 years of US political speeches on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2f2023-03-23-computational-analysis-of-140-years-of-us-political-speeches%2f&amp;title=Computational%20analysis%20of%20140%20years%20of%20US%20political%20speeches&amp;summary=Computational%20analysis%20of%20140%20years%20of%20US%20political%20speeches&amp;source=%2fpost%2f2023-03-23-computational-analysis-of-140-years-of-us-political-speeches%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
         </svg>
     </a>
-    <a target="_blank" rel="noopener noreferrer" aria-label="share PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码) on reddit"
-        href="https://reddit.com/submit?url=%2fpost%2f2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors%2f&title=PNAS%20%7c%20%e5%8e%86%e5%8f%b2%e6%96%87%e6%9c%ac%e4%b8%ad%e7%9a%84%e8%af%ad%e8%a8%80%e7%a7%af%e6%9e%81%e6%80%a7%e5%8f%8d%e6%98%a0%e4%ba%86%e5%8a%a8%e6%80%81%e7%9a%84%e7%8e%af%e5%a2%83%e5%92%8c%e5%bf%83%e7%90%86%e5%9b%a0%e7%b4%a0%28%e5%90%abPython%e4%bb%a3%e7%a0%81%29">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Computational analysis of 140 years of US political speeches on reddit"
+        href="https://reddit.com/submit?url=%2fpost%2f2023-03-23-computational-analysis-of-140-years-of-us-political-speeches%2f&title=Computational%20analysis%20of%20140%20years%20of%20US%20political%20speeches">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
         </svg>
     </a>
-    <a target="_blank" rel="noopener noreferrer" aria-label="share PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码) on facebook"
-        href="https://facebook.com/sharer/sharer.php?u=%2fpost%2f2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors%2f">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Computational analysis of 140 years of US political speeches on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=%2fpost%2f2023-03-23-computational-analysis-of-140-years-of-us-political-speeches%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
         </svg>
     </a>
-    <a target="_blank" rel="noopener noreferrer" aria-label="share PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码) on whatsapp"
-        href="https://api.whatsapp.com/send?text=PNAS%20%7c%20%e5%8e%86%e5%8f%b2%e6%96%87%e6%9c%ac%e4%b8%ad%e7%9a%84%e8%af%ad%e8%a8%80%e7%a7%af%e6%9e%81%e6%80%a7%e5%8f%8d%e6%98%a0%e4%ba%86%e5%8a%a8%e6%80%81%e7%9a%84%e7%8e%af%e5%a2%83%e5%92%8c%e5%bf%83%e7%90%86%e5%9b%a0%e7%b4%a0%28%e5%90%abPython%e4%bb%a3%e7%a0%81%29%20-%20%2fpost%2f2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors%2f">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Computational analysis of 140 years of US political speeches on whatsapp"
+        href="https://api.whatsapp.com/send?text=Computational%20analysis%20of%20140%20years%20of%20US%20political%20speeches%20-%20%2fpost%2f2023-03-23-computational-analysis-of-140-years-of-us-political-speeches%2f">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
         </svg>
     </a>
-    <a target="_blank" rel="noopener noreferrer" aria-label="share PNAS | 历史文本中的语言积极性反映了动态的环境和心理因素(含Python代码) on telegram"
-        href="https://telegram.me/share/url?text=PNAS%20%7c%20%e5%8e%86%e5%8f%b2%e6%96%87%e6%9c%ac%e4%b8%ad%e7%9a%84%e8%af%ad%e8%a8%80%e7%a7%af%e6%9e%81%e6%80%a7%e5%8f%8d%e6%98%a0%e4%ba%86%e5%8a%a8%e6%80%81%e7%9a%84%e7%8e%af%e5%a2%83%e5%92%8c%e5%bf%83%e7%90%86%e5%9b%a0%e7%b4%a0%28%e5%90%abPython%e4%bb%a3%e7%a0%81%29&amp;url=%2fpost%2f2023-03-13-linguistic-positivity-in-historical-texts-reflects-dynamic-environmental-and-psychological-factors%2f">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Computational analysis of 140 years of US political speeches on telegram"
+        href="https://telegram.me/share/url?text=Computational%20analysis%20of%20140%20years%20of%20US%20political%20speeches&amp;url=%2fpost%2f2023-03-23-computational-analysis-of-140-years-of-us-political-speeches%2f">
         <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28">
             <path
                 d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
@@ -289,7 +289,7 @@ onload="renderMathInElement(document.body);"></script>
                     <li>
                         <a href="#%e4%ba%94%e8%ae%ba%e6%96%87%e6%a1%86%e6%9e%b6" aria-label="五、论文框架">五、论文框架</a></li>
                     <li>
-                        <a href="#%e5%85%ad%e4%bb%a3%e7%a0%81" aria-label="六、代码">六、代码</a>
+                        <a href="#%e5%85%ad%e5%8f%af%e8%a7%86%e5%8c%96%e7%bb%93%e6%9e%9c" aria-label="六、可视化结果">六、可视化结果</a>
                     </li>
                 </ul>
             </div>
@@ -364,15 +364,7 @@ onload="renderMathInElement(document.body);"></script>
 <p><br><br></p>
 <h2 id="下载资料">下载资料<a hidden class="anchor" aria-hidden="true" href="#下载资料">#</a></h2>
 <ul>
-<li>
-<p><a href="code.ipynb">下载代码</a></p>
-</li>
-<li>
-<p><a href="yearly_american_speech_dataset.csv">下载数据</a></p>
-</li>
-<li>
-<p>[论文脑图pdf](对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架.pdf)</p>
-</li>
+<li>[论文脑图pdf](对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架.pdf)</li>
 </ul>
 <p><br><br></p>
 <h2 id="一研究背景">一、研究背景<a hidden class="anchor" aria-hidden="true" href="#一研究背景">#</a></h2>
@@ -407,9 +399,18 @@ onload="renderMathInElement(document.body);"></script>
 </ol>
 <p><br><br></p>
 <h2 id="五论文框架">五、论文框架<a hidden class="anchor" aria-hidden="true" href="#五论文框架">#</a></h2>
-<p><img loading="lazy" src="img/%e5%af%b9%e7%be%8e%e5%9b%bd140%e5%b9%b4%e6%94%bf%e6%b2%bb%e6%bc%94%e8%ae%b2%e7%9a%84%e8%ae%a1%e7%ae%97%e5%88%86%e6%9e%90%e6%8f%ad%e7%a4%ba%e4%ba%86%e6%9b%b4%e7%a7%af%e6%9e%81%e4%bd%86%e6%97%a5%e7%9b%8a%e4%b8%a4%e6%9e%81%e5%88%86%e5%8c%96%e7%9a%84%e7%a7%bb%e6%b0%91%e6%a1%86%e6%9e%b6.png" alt=""  />
+<p><img loading="lazy" src="%e5%af%b9%e7%be%8e%e5%9b%bd140%e5%b9%b4%e6%94%bf%e6%b2%bb%e6%bc%94%e8%ae%b2%e7%9a%84%e8%ae%a1%e7%ae%97%e5%88%86%e6%9e%90%e6%8f%ad%e7%a4%ba%e4%ba%86%e6%9b%b4%e7%a7%af%e6%9e%81%e4%bd%86%e6%97%a5%e7%9b%8a%e4%b8%a4%e6%9e%81%e5%88%86%e5%8c%96%e7%9a%84%e7%a7%bb%e6%b0%91%e6%a1%86%e6%9e%b6.png" alt=""  />
 </p>
-<h2 id="六代码">六、代码<a hidden class="anchor" aria-hidden="true" href="#六代码">#</a></h2>
+<p><br><br></p>
+<h2 id="六可视化结果">六、可视化结果<a hidden class="anchor" aria-hidden="true" href="#六可视化结果">#</a></h2>
+<p><img loading="lazy" src="%e5%8f%af%e8%a7%86%e5%8c%961.png" alt=""  />
+</p>
+<p><img loading="lazy" src="%e5%8f%af%e8%a7%86%e5%8c%962.png" alt=""  />
+</p>
+<p><img loading="lazy" src="%e5%8f%af%e8%a7%86%e5%8c%963.png" alt=""  />
+</p>
+<p><img loading="lazy" src="%e5%8f%af%e8%a7%86%e5%8c%964.png" alt=""  />
+</p>
 
 
   </div>
@@ -417,10 +418,8 @@ onload="renderMathInElement(document.body);"></script>
   <footer class="post-footer">
       <ul class="post-tags">
         <b>Tags:  &nbsp;</b>
-        <li><a href="/tags/%E5%AD%A6%E6%9C%AF%E5%BA%94%E7%94%A8/" target='_blank'>学术应用</a></li>
-        <li><a href="/tags/%E8%AF%AD%E8%A8%80%E5%AD%A6/" target='_blank'>语言学</a></li>
-        <li><a href="/tags/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90/" target='_blank'>文本分析</a></li>
-        <li><a href="/tags/python/" target='_blank'>Python</a></li>
+        <li><a href="/tags/%E8%8B%B1%E8%AF%AD/" target='_blank'>英语</a></li>
+        <li><a href="/tags/%E6%8A%80%E5%B7%A7/" target='_blank'>技巧</a></li>
       </ul>
 
 

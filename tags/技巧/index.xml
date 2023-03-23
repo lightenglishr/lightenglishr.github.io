@@ -6,7 +6,72 @@
     <description>Recent content in 技巧 on LightEnglishr</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computational analysis of 140 years of US political speeches</title>
+      <link>https://hidadeng.github.io/post/2023-03-23-computational-analysis-of-140-years-of-us-political-speeches/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023-03-23-computational-analysis-of-140-years-of-us-political-speeches/</guid>
+      <description>移民是美国公共生活中最重要和最具争议的话题之一,对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架。</description>
+      <content:encoded><![CDATA[<p>分享一篇论文：对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架。</p>
+<p>该论文发表在PNAS：</p>
+<blockquote>
+<p>Iliev, R., Hoover, J., Dehghani, M. and Axelrod, R., 2016. <strong>Linguistic positivity in historical texts reflects dynamic environmental and psychological factors</strong>. <em>Proceedings of the National Academy of Sciences</em>, <em>113</em>(49), pp.E7871-E7879.</p>
+</blockquote>
+<p><br><br></p>
+<h2 id="下载资料">下载资料</h2>
+<ul>
+<li>[论文脑图pdf](对美国 140 年政治演讲的计算分析揭示了更积极但日益两极分化的移民框架.pdf)</li>
+</ul>
+<p><br><br></p>
+<h2 id="一研究背景">一、研究背景</h2>
+<p>作者指出：移民是美国公共生活中最重要和最具争议的话题之一。从近年来直言不讳的反移民政治家的崛起来看，很容易得出这样的结论：对移民的态度比以往任何时候都更加消极——或者至少更加两极分化。我们试图超越个人轶事来追问，在过去的一个世纪里，美国对移民的态度发生了怎样的变化？最近关于移民的政治辩论与美国历史的漫长历程相比如何？这个问题是一个挑战，因为询问对移民的态度的民意调查只是在 1960 年代才开始，然后直到最近几年才零星地询问移民。我们转向国会记录和其他政治演讲来源，使用定量文本分析方法系统地调查过去 140 年国会和总统关于移民的演讲中使用的语言。</p>
+<p><br><br></p>
+<h2 id="二数据来源">二、数据来源</h2>
+<ol>
+<li>对于第 43 届到第 111 届国会，我们使用了 Gentzkow 等人的国会记录的数字化副本。</li>
+<li>对于第 112 届至第 116 届国会，我们使用@unitedstates 项目提供的“国会记录”工具从公共 HTML 文件中下载和提取国会记录的文本。</li>
+<li>对于总统通讯，我们从美国总统项目下载了所有可用的总统文件。</li>
+<li>对于移民统计，我们结合了美国千禧年版在线历史统计表 Ad354-443 中的数据和移民政策研究所编制的人口普查数据。</li>
+</ol>
+<h2 id="三研究发现">三、研究发现：</h2>
+<ol>
+<li>
+<p>移民演讲的语气：</p>
+<p>1.1 在整个 19 世纪末和 20 世纪初，国会和行政部门对移民的平均情绪是负面的；</p>
+<p>1.2 其次，对移民的态度在二战开始前后变得更加积极，从 1940 年到约翰逊政府结束（1969 年）稳步上升。</p>
+<p>1.3 从 1965 年《移民和国籍法》重新开放边境大约十年后开始，党派分歧越来越大，年复一年的差异越来越大，共和党人对移民的态度总体下降；</p>
+<p>1.4 近年来，总统一直比国会的普通成员更支持移民，包括罗纳德里根这样的共和党人和吉米卡特这样的民主党人；</p>
+<p>1.5 尽管今天各方之间的语气差异比过去任何时候都大，但语气也会根据所讨论的移民群体而有很大差异。</p>
+</li>
+<li>
+<p>语言、框架和非人性化：</p>
+<p>2.1 为了更好地理解在移民演讲的完整语料库中暗示支持移民或反移民语气的语言，我们训练可解释的逻辑回归模型来近似我们的上下文嵌入模型的预测，并使用 Shapley 值确定特征重要性；</p>
+<p>2.2 为了从更一般的层面上理解各方在如何描述移民方面的修辞分歧，我们关注移民辩论的几个重要方面（即框架）。作为衡量这些框架流行程度的一种直接且透明的方式，我们针对此问题构建并共享了一系列词典。</p>
+<p>2.3 除了这些在文本中明确出现的框架之外，我们还测量了更多隐含的非人化隐喻。嵌入模型（识别提及和测量非人化）。</p>
+</li>
+<li>
+<p>国别差异：如上所示，提及不同国籍的移民时语气的差异可能与现代政党之间的差异一样大。</p>
+</li>
+</ol>
+<p><br><br></p>
+<h2 id="五论文框架">五、论文框架</h2>
+<p><img loading="lazy" src="%e5%af%b9%e7%be%8e%e5%9b%bd140%e5%b9%b4%e6%94%bf%e6%b2%bb%e6%bc%94%e8%ae%b2%e7%9a%84%e8%ae%a1%e7%ae%97%e5%88%86%e6%9e%90%e6%8f%ad%e7%a4%ba%e4%ba%86%e6%9b%b4%e7%a7%af%e6%9e%81%e4%bd%86%e6%97%a5%e7%9b%8a%e4%b8%a4%e6%9e%81%e5%88%86%e5%8c%96%e7%9a%84%e7%a7%bb%e6%b0%91%e6%a1%86%e6%9e%b6.png" alt=""  />
+</p>
+<p><br><br></p>
+<h2 id="六可视化结果">六、可视化结果</h2>
+<p><img loading="lazy" src="%e5%8f%af%e8%a7%86%e5%8c%961.png" alt=""  />
+</p>
+<p><img loading="lazy" src="%e5%8f%af%e8%a7%86%e5%8c%962.png" alt=""  />
+</p>
+<p><img loading="lazy" src="%e5%8f%af%e8%a7%86%e5%8c%963.png" alt=""  />
+</p>
+<p><img loading="lazy" src="%e5%8f%af%e8%a7%86%e5%8c%964.png" alt=""  />
+</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Sentiment Analysis: An overview from Linguistics</title>
       <link>https://hidadeng.github.io/post/2023-03-22-sentiment-analysis-an-overview-from-linguistics/</link>
